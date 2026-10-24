@@ -1,0 +1,84 @@
+/* CarbonCraft colours, taken from the in-game menus (help.yml title gradient, megaproject cyan). */
+:root {
+  --cc-section-color: #0b3d91;
+  --md-primary-fg-color: #0b3d91;
+  --md-primary-fg-color--light: #2f5fb3;
+  --md-primary-fg-color--dark: #082c69;
+  --md-accent-fg-color: #3ea7b6;
+  --md-accent-fg-color--transparent: rgba(62, 167, 182, 0.1);
+}
+
+[data-md-color-scheme="slate"] {
+  --cc-section-color: #6cc4d1;
+  --md-default-bg-color: #0d1220;
+  --md-primary-fg-color: #0b3d91;
+  --md-typeset-a-color: #6cc4d1;
+  --md-accent-fg-color: #6cc4d1;
+}
+
+/* Header logo is square with transparent padding; let it fill the bar. */
+.md-header__button.md-logo img {
+  height: 2rem;
+}
+
+/* Sidebar sections (desktop only; on narrow screens sections are drill-down menus).
+   Section names read as headings, separated by a rule, with their pages hung off a
+   guide line underneath. */
+@media screen and (min-width: 76.25em) {
+  .md-nav--primary .md-nav__item--section {
+    margin-top: 0.9em;
+    padding-top: 0.9em;
+    border-top: 1px solid var(--md-default-fg-color--lightest);
+  }
+
+  .md-nav--primary .md-nav__item--section > .md-nav__link,
+  .md-nav--primary .md-nav__item--section > .md-nav__container > .md-nav__link {
+    color: var(--cc-section-color);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .md-nav--primary .md-nav__item--section > .md-nav > .md-nav__list {
+    margin-left: 0.45rem;
+    padding-left: 0.45rem;
+    border-left: 2px solid var(--md-default-fg-color--lightest);
+  }
+}
+
+/* Links page cards: bigger brand icons, tinted with the section colour. */
+.md-typeset .grid.cards .twemoji.lg {
+  height: 1.6em;
+  width: 1.6em;
+  vertical-align: middle;
+  margin-right: 0.3em;
+  color: var(--cc-section-color);
+}
+
+.md-typeset img.hero-logo {
+  display: block;
+  margin: 0 auto 1rem;
+  max-width: 260px;
+  width: 60%;
+}
+
+/* DeluxeTags rendered as they look in chat: per-letter colours on a dark chat chip.
+   Same chip in both schemes so the in-game colours read the same. The faint light halo
+   keeps the darkest gradients (Ghast, Daily, CORP) legible without washing out the
+   bright ones, which a lighter chip did. */
+.md-typeset .mc-tag {
+  display: inline-block;
+  padding: 0.15em 0.5em;
+  border-radius: 0.2rem;
+  background: #2f2f2f;
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.55), 0 0 4px rgba(255, 255, 255, 0.3);
+  font-family: var(--md-code-font-family);
+  font-size: 1.15em;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.md-typeset .server-address {
+  font-size: 1.1rem;
+}

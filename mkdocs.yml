@@ -1,0 +1,100 @@
+site_name: CarbonCraft Wiki
+site_description: Player guide for the CarbonCraft Minecraft server
+site_url: https://wiki.carboncraft.xyz/
+
+nav:
+  - Home: index.md
+  - Links: links.md
+  - Getting started:
+      - getting-started/index.md
+      - Joining the server: getting-started/joining.md
+      - Your first hour: getting-started/first-steps.md
+      - Claiming land: getting-started/claiming-land.md
+      - Money & currencies: getting-started/money.md
+      - Voting & vote tiers: getting-started/voting.md
+      - Commands: getting-started/commands.md
+      - Rules: getting-started/rules.md
+  - Mining & fishing:
+      - activities/index.md
+      - Mining: activities/mining.md
+      - Fishing: activities/fishing.md
+  - Skills:
+      - skills/index.md
+      - Stats & effects: skills/stats-and-effects.md
+      - Earning XP: skills/earning-xp.md
+  - The Syndicate:
+      - syndicates/index.md
+      - CarbonCorp™: syndicates/carboncorp.md
+      - ISD: syndicates/isd.md
+      - The Union: syndicates/union.md
+      - Vivec's Rebels: syndicates/rebels.md
+  - Cosmetics:
+      - cosmetics/index.md
+      - Tags: cosmetics/tags.md
+      - Plushies: cosmetics/plushies.md
+
+validation:
+  anchors: warn
+
+hooks:
+  - hooks/strip_comments.py
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.footer
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - toc.follow
+
+extra_css:
+  - assets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/carboncraft
+      name: CarbonCraft Discord
+    - icon: material/store
+      link: https://store.carboncraft.xyz
+      name: CarbonCraft Store
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/carboncraftxyz/
+      name: CarbonCraft on Instagram
+    - icon: material/web
+      link: https://ocgames.xyz
+      name: OverCrafted Games
+
+markdown_extensions:
+  - tables
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
