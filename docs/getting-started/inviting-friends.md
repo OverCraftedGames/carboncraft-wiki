@@ -3,7 +3,8 @@ icon: material/account-multiple-plus
 ---
 
 <!-- Sources: CarbonRefer config.yml (window-hours 3, referrer-min-hours 2, block-shared-ip,
-     afk-minutes 5, milestones settled-in / regular / voter / supporter, ranks recruiter 3 /
+     afk-minutes 5, milestones settled-in / regular / voter (12 votes) / supporter, random-pool
+     nogs_menagerie:nm_plushie_*, ranks recruiter 3 /
      headhunter 10); DeluxeTags config.yml (recruiter, headhunter). Written 2026-10-25 from
      the test server config, before CarbonRefer reached live; re-check once it has. -->
 
@@ -42,12 +43,14 @@ paid as they reach each milestone:
 | Milestone | Your friend has to | You get |
 |---|---|---|
 | Settled In | Play 2 hours | 1 Carbon Key (and they get one too) |
-| Regular | Play 10 hours | 1 Plasma Key |
-| Voter | Reach 10 [votes](voting.md) | 1 Plasma Key |
-| Supporter | Spend $10 or more in total in the [store](https://store.carboncraft.xyz) | 1 Iridium Key |
+| Regular | Play 10 hours | 1 Plasma Key + a random [plushie](../cosmetics/plushies.md) |
+| Voter | Reach 12 [votes](voting.md) | 1 Plasma Key + a random plushie |
+| Supporter | Spend $10 or more in total in the [store](https://store.carboncraft.xyz) | 1 Iridium Key + a random plushie |
 
 - Playtime counts from the moment they link to you. Time spent AFK doesn't count.
 - If you're offline when a milestone is reached, your reward waits until you next join.
+- A plushie needs a free inventory slot. If you're full, it waits and arrives within a
+  minute of you making room.
 - Every milestone pays once per friend, and there's no limit on how many friends you
   can invite.
 
