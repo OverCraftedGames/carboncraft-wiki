@@ -22,6 +22,7 @@ icon: material/console-line
 | `/voteshop` | Spend vote points |
 | `/coinshop` | Spend CarbonCoins on [tags](../cosmetics/tags.md), [plushies](../cosmetics/plushies.md), keys and more |
 | `/tags` | Pick the [tag](../cosmetics/tags.md) shown next to your name |
+| `/refer` | Friends you've [invited](inviting-friends.md) and their progress (also `/referrals`) |
 | `/exchange` | Spend dollars on flex tags, Entropy or Zeta (also `/sink`) |
 | `/enchants` | Browse every custom enchant |
 | `/heirlooms` | Heirloom item sets |

@@ -12,7 +12,8 @@ New to CarbonCraft? Read these in order.
 3. [Claiming land](claiming-land.md): protecting your builds
 4. [Money & currencies](money.md): dollars, CarbonCoins, vote points and keys
 5. [Voting & vote tiers](voting.md): the free rank ladder
-6. [Commands](commands.md): everything you can type, in one list
-7. [Rules](rules.md)
+6. [Inviting friends](inviting-friends.md): the referral program, for you and whoever invited you
+7. [Commands](commands.md): everything you can type, in one list
+8. [Rules](rules.md)
 
 In game, `/help` opens a menu with every feature on the server.
