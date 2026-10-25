@@ -33,6 +33,10 @@ nav:
       - cosmetics/index.md
       - Tags: cosmetics/tags.md
       - Plushies: cosmetics/plushies.md
+  - Store rewards:
+      - store/index.md
+      - Monthly rewards: store/monthly-rewards.md
+      - Supporter of the Month: store/supporter-of-the-month.md
 
 validation:
   anchors: warn
