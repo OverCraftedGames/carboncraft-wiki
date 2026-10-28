@@ -21,12 +21,14 @@ stats for your account. Come back to it whenever you're unsure where something i
 Spawn is protected, and you can't build near it. Type `/rtp` and choose
 **Overworld Teleport** to land somewhere random in the wilderness.
 
-| World | Claims | PvP | Resets | Unlocked at |
-|---|---|---|---|---|
-| Overworld | yes | off | never | from the start |
-| Nether | no | **on** | monthly | vote tier X |
-| The End | no | **on** | monthly | vote tier XX |
-| Legacy World | no | off | never | from the start |
+PvP is off in every world.
+
+| World | Claims | Resets | Unlocked at |
+|---|---|---|---|
+| Overworld | yes | never | from the start |
+| Nether | no | monthly | vote tier X |
+| The End | no | monthly | vote tier XX |
+| Legacy World | no | never | from the start |
 
 The Legacy World is the old 1.21 CarbonCraft map, kept as a museum. You can explore it
 in adventure mode but can't build there.
