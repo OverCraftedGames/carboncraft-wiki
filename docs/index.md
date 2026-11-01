@@ -53,4 +53,5 @@ ISD, the Union and Vivec's Rebels to unlock gear you can't get anywhere else.
 - Instagram: [@carboncraftxyz](https://www.instagram.com/carboncraftxyz/)
 - Website: [ocgames.xyz](https://ocgames.xyz)
 
-All of these are also on the [Links](links.md) page.
+All of these are also on the [Links](links.md) page. Who runs CarbonCraft, how Carbon+
+works and where to get help: [About](about.md).

@@ -5,6 +5,7 @@ site_url: https://wiki.carboncraft.xyz/
 nav:
   - Home: index.md
   - Links: links.md
+  - About: about.md
   - Getting started:
       - getting-started/index.md
       - Joining the server: getting-started/joining.md
