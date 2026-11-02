@@ -3,14 +3,15 @@ icon: material/tag
 ---
 
 <!-- Sources (live): DeluxeTags config.yml (63 tags: display, description, permission);
-     DeluxeMenus shop/tags.yml + confirm_tagpack_1..8.yml (8 packs, 350 CarbonCoins, no
-     ownership check), sink/sink_tags.yml + sink_hub.yml (7 flex tags, [takemoney], open
+     DeluxeMenus shop/tags.yml + confirm_tagpack_1..8.yml (8 packs, 350 CarbonCoins,
+     Owned once all five are held), shop/tags_movienight.yml + confirm_movietag.yml
+     (10 movie night tags, 100 CarbonCoins each; written 2026-11-02 from test for the
+     CarbonCore 1.1.0 release), sink/sink_tags.yml + sink_hub.yml (7 flex tags, [takemoney], open
      commands exchange/sink), voteshop.yml (vote tag, 1000 vote points),
      megaproject_rewards.yml (carboncorp); DailyRewardsPlus Rewards.yml Day 31 + Config.yml
      (PauseStreakWhenMissed true); CarbonSpend config.yml (mvp, held for a month);
      ExcellentCrates crates/*.yml (carbon, fusion, plasma, zombie tag rewards).
-     Staff-only and one-off tags (builder, viibe, spider, craft, autobot, jungle, CptJack)
-     left out. Rendered tag HTML comes from scripts/render-tags.py. Checked 2026-10-24. -->
+     Staff-only and one-off tags (builder, viibe) left out. Rendered tag HTML comes from scripts/render-tags.py. Checked 2026-10-24. -->
 
 # Tags
 
@@ -44,9 +45,29 @@ five tags at once.
 
 You confirm each purchase before the coins are taken.
 
-!!! warning "Don't buy a pack twice"
-    The shop doesn't check which packs you already own. Buying a pack again takes
-    another 350 CarbonCoins and gives you nothing new.
+Once you own all five tags in a pack it shows as **Owned** and can't be bought again.
+If you only own some of them, the pack still costs the full 350 CarbonCoins.
+
+## Movie night tags
+
+Every movie night gives the players who come along a tag for that film. Missed one?
+They're sold one at a time in `/coinshop` → **Cosmetics** → **Tags** → **Movie Night
+Tags**, **100 CarbonCoins** each.
+
+| Tag | Description |
+|---|---|
+| <span class="mc-tag"><span style="color:#555555">[</span><span style="color:#FF0000;font-weight:700">S</span><span style="color:#D50B23;font-weight:700">p</span><span style="color:#AB1646;font-weight:700">i</span><span style="color:#812068;font-weight:700">d</span><span style="color:#572B8B;font-weight:700">e</span><span style="color:#2D36AE;font-weight:700">r</span><span style="color:#555555">]</span></span> | With great power comes great responsibilities |
+| <span class="mc-tag"><span style="color:#555555">[</span><span style="color:#098F35;font-weight:700">C</span><span style="color:#1C792D;font-weight:700">R</span><span style="color:#306225;font-weight:700">A</span><span style="color:#434C1D;font-weight:700">F</span><span style="color:#563515;font-weight:700">T</span><span style="color:#555555">]</span></span> | Chicken Jockey??? |
+| <span class="mc-tag"><span style="color:#555555">[</span><span style="color:#FF0000;font-weight:700">A</span><span style="color:#FF5555;font-weight:700">u</span><span style="color:#FFAAAA;font-weight:700">t</span><span style="color:#FFFFFF;font-weight:700">o</span><span style="color:#ACAAFF;font-weight:700">b</span><span style="color:#5A55FF;font-weight:700">o</span><span style="color:#0700FF;font-weight:700">t</span><span style="color:#555555">]</span></span> | Roll out! |
+| <span class="mc-tag"><span style="color:#555555">[</span><span style="color:#FB8F3F;font-weight:700">J</span><span style="color:#D9903A;font-weight:700">u</span><span style="color:#B89134;font-weight:700">n</span><span style="color:#96922F;font-weight:700">g</span><span style="color:#626F34;font-weight:700">l</span><span style="color:#185A16;font-weight:700">e</span><span style="color:#555555">]</span></span> | JUMANJI! |
+| <span class="mc-tag"><span style="color:#555555">[</span><span style="color:#D0E97A;font-weight:700">C</span><span style="color:#B0DB99;font-weight:700">p</span><span style="color:#90CCB7;font-weight:700">t</span><span style="color:#70BED6;font-weight:700">J</span><span style="color:#58AACD;font-weight:700">a</span><span style="color:#3F96C5;font-weight:700">c</span><span style="color:#2782BC;font-weight:700">k</span><span style="color:#555555">]</span></span> | Why is the rum gone?! |
+| <span class="mc-tag"><span style="color:#555555">[</span><span style="color:#008AAC;font-weight:700">Z</span><span style="color:#508373;font-weight:700">o</span><span style="color:#9F7C39;font-weight:700">i</span><span style="color:#EF7500;font-weight:700">n</span><span style="color:#A09A00;font-weight:700">k</span><span style="color:#52C000;font-weight:700">s</span><span style="color:#03E500;font-weight:700">!</span><span style="color:#555555">]</span></span> | How about a Scooby Snack™? |
+| <span class="mc-tag"><span style="color:#555555">[</span><span style="color:#5D2E67;font-weight:700">V</span><span style="color:#6A2658;font-weight:700">a</span><span style="color:#771F49;font-weight:700">m</span><span style="color:#84173B;font-weight:700">p</span><span style="color:#910F2C;font-weight:700">i</span><span style="color:#9E081D;font-weight:700">r</span><span style="color:#AB000E;font-weight:700">e</span><span style="color:#555555">]</span></span> | Master of the night but powerless in the light |
+| <span class="mc-tag"><span style="color:#555555">[</span><span style="color:#04CF00;font-weight:700">S</span><span style="color:#2EC809;font-weight:700">m</span><span style="color:#58C213;font-weight:700">o</span><span style="color:#82BB1C;font-weight:700">k</span><span style="color:#ACB526;font-weight:700">i</span><span style="color:#D6AE2F;font-weight:700">n</span><span style="color:#555555">]</span></span> | S-ssss-ssss-sssss-smokin'! |
+| <span class="mc-tag"><span style="color:#555555">[</span><span style="color:#6A06A5;font-weight:700">G</span><span style="color:#7B1A86;font-weight:700">h</span><span style="color:#8C2E67;font-weight:700">o</span><span style="color:#9E4248;font-weight:700">s</span><span style="color:#AF5629;font-weight:700">t</span><span style="color:#C06A0A;font-weight:700">!</span><span style="color:#555555">]</span></span> | Who ya gonna call? |
+| <span class="mc-tag"><span style="color:#555555">[</span><span style="color:#0E00FC;font-weight:700">B</span><span style="color:#2F00F2;font-weight:700">u</span><span style="color:#5100E7;font-weight:700">t</span><span style="color:#7200DD;font-weight:700">t</span><span style="color:#9400D2;font-weight:700">o</span><span style="color:#B500C8;font-weight:700">n</span><span style="color:#555555">]</span></span> | The Dolls are watching. |
+
+Tags you already own show as **Owned**.
 
 ## Flex tags
 

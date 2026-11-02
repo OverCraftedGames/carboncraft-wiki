@@ -8,7 +8,8 @@ icon: material/fish
      (157 fish: 34/21/25/26/31/20), bait.yml, tournaments.yml (AutoStart, min 10 players,
      600 s, 6 fixed times, rewards), messages.yml (descriptions, command list).
      Augments CheckForLevel is false; levels listed are the ones the augment item shows.
-     Crab Crusher and Snow Globe (event augments) left out. Checked 2026-10-24. -->
+     Crab Crusher and Snow Globe (event augments) left out. Checked 2026-10-24.
+     Moonlure: CarbonCore 1.1.0 Moonlure/config.yml (live 2026-11-02). -->
 
 # Fishing
 
@@ -115,6 +116,35 @@ one has several levels.
 | Solar Rage | 35 | More money when selling fish |
 | Trophy | 35 | Better odds at the scales |
 | Master Fisherman | 45 | Higher chance of higher-tier fish |
+
+### Moonlure
+
+**Moonlure** is CarbonCraft's own augment. Some fish only bite at night; with Moonlure
+on your rod, each daytime catch has a chance to open those night fish up as if it were
+night. Bait, biome and the other rules still apply, so it lets night fish bite rather
+than handing one out.
+
+Each level adds 2%, up to **Moonlure V** at a 10% chance on every daytime catch. Every
+Moonlure you apply adds a level.
+
+**Crafting:** drop **exactly** these items into a cauldron, then **left-click the
+cauldron with a fishing rod**. You get one Moonlure I (and your bucket back). Drag it
+onto your rod to apply it. Type `/moonlure` to see the recipe in game, with what you
+already have.
+
+| Ingredient | Amount |
+|---|---|
+| Pale Oak Log | 16 |
+| Magma Cream | 16 |
+| Soul Sand | 32 |
+| Twisting Vines | 32 |
+| Lava Bucket | 1 |
+| Squid Tentacle | 12 |
+| Crab Claw | 20 |
+| Entropy | 75,000 |
+
+The vanilla items have to be ordinary ones: a plugin item made from the same material
+doesn't count.
 
 ## Bait
 

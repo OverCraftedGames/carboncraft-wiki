@@ -33,6 +33,7 @@ nav:
   - Cosmetics:
       - cosmetics/index.md
       - Tags: cosmetics/tags.md
+      - Join messages: cosmetics/join-messages.md
       - Plushies: cosmetics/plushies.md
   - Store rewards:
       - store/index.md

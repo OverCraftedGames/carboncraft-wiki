@@ -6,7 +6,10 @@ title: Store rewards
 <!-- Sources (live): CarbonSpend config.yml (poll-seconds 300, count-since 2026-07-01,
      per-purchase halloween-plushie-pack min 19.00 / slots 10, monthly.start-month 2026-11,
      rewards-gui, random-pool nogs_menagerie:nm_plushie_*); CarbonSpend plugin.yml
-     (/storerewards, alias /claimrewards). Checked 2026-10-25. -->
+     (/storerewards, alias /claimrewards). Checked 2026-10-25.
+     Cosmetics section: DeluxeMenus shop/carboncoinshop.yml, shop/cosmetics.yml,
+     shop/tags.yml, shop/tags_movienight.yml, plushies/*.yml; CarbonCore CarbonJoin
+     config.yml (prices). Checked on live 2026-11-02, after the CarbonCore 1.1.0 release. -->
 
 # Store rewards
 
@@ -36,6 +39,24 @@ Type `/storerewards` (or `/claimrewards`) to open your rewards chest.
 !!! tip "Rewards can take a few minutes"
     Your store package arrives instantly, but these extra rewards are checked every five
     minutes. If one hasn't shown up yet, give it a moment.
+
+## Cosmetics
+
+CarbonCoins from the store are spent in `/coinshop`. Tags and join messages are under
+**Cosmetics**, and plushies have their own button next to it.
+
+| Cosmetic | Price | Details |
+|---|---|---|
+| Tag packs, five tags each | 350 CarbonCoins | [Tags](../cosmetics/tags.md#tag-packs) |
+| Movie night tags | 100 CarbonCoins each | [Tags](../cosmetics/tags.md#movie-night-tags) |
+| Join messages | 500, 750 or 1,000 CarbonCoins | [Join messages](../cosmetics/join-messages.md) |
+| Plushies | 100 to 200 CarbonCoins, packs 700 | [Plushies](../cosmetics/plushies.md) |
+
+Particles are coming to the Cosmetics menu later.
+
+Every purchase asks you to confirm before the coins are taken. Tags and join messages
+you already own are marked **Owned** and can't be bought twice. Some can't be bought at
+all and are earned by playing instead; each page lists how to get them.
 
 ## Seasonal offers
 
