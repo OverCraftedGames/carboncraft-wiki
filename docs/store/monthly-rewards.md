@@ -9,7 +9,7 @@ icon: material/calendar-month
 
 # Monthly rewards
 
-Starts in **November 2026**. Months run on UTC time, from the 1st to the last day.
+Running since **November 2026**. Months run on UTC time, from the 1st to the last day.
 
 ## Your monthly rewards
 

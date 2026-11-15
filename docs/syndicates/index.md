@@ -9,7 +9,13 @@ title: The Syndicate
      10 per rep, daily cap 15, ceiling 1000) and shop-items.yml (all 28 items: 250/$50k/+10,
      1000/$150k/+20, 2500/$300k/+40); megaproject_rewards.yml (+20 CarbonCorp, +5 others);
      EcoAnvilFix config.yml (locked-enchants: syndicate_tech). Images: wiki-images/syndicates
-     (recreations built 2026-10-08, matched against live 2026-10-24). -->
+     (recreations built 2026-10-08, matched against live 2026-10-24).
+     Re-checked 2026-11-15: standing.yml is now one hub (row per faction: shop, daily,
+     weekly, requisition, lore; /carboncorp etc. open it too); lore.yml view thresholds
+     0..2500 (uneven), entries 1-10 written; CarbonCore/CarbonContribute/config.yml
+     contracts (1 daily + 1 weekly per faction, 20 daily 10 rep/$1,000, 8 weekly
+     60 rep/$7,500, deliver or kill, ignore-spawner-mobs, America/Edmonton, weeks start
+     Monday). Image 02 still shows the old standing screen. -->
 
 # The Syndicate
 
@@ -31,9 +37,9 @@ with another, so you can work your way up with all four.
 
 ## 1. Check your standing
 
-Type `/syndicate` (or `/standing`) to see your standing with every faction on one
-screen. Click a faction to open its page, where you'll find its shop, its lore archive
-and its requisition desk.
+Type `/syndicate` (or `/rep`, `/standing`, or a faction's name such as `/union`) to
+open the Syndicate hub. Each faction has one row: your standing with it, then its
+shop, its daily and weekly contracts, its requisition desk and its lore archive.
 
 ![The standing menu and rank ladder](../assets/syndicates/02-standing-menu.webp)
 
@@ -51,7 +57,7 @@ Everyone starts at 0 (Neutral) with all four factions.
 
 ### Requisitions: hand in Carbon
 
-On a faction's page, click the requisition button to hand Carbon straight to that
+In the hub, click a faction's requisition button to hand Carbon straight to that
 faction. **Carbon** turns up while you mine ore in the Overworld.
 
 ![Handing in Carbon at the requisition desk](../assets/syndicates/03-requisition.webp)
@@ -70,11 +76,29 @@ faction. **Carbon** turns up while you mine ore in the Overworld.
 The daily limit is per faction, so you can hand in 150 Carbon to each of the four
 every day.
 
+### Contracts
+
+Every faction posts one **daily** and one **weekly** contract on its board. Everyone
+sees the same contracts, and each one is either a delivery or a kill count.
+
+| | Daily | Weekly |
+|---|---|---|
+| Standing | +10 | +60 |
+| Money | $1,000 | $7,500 |
+| Resets | every day | every Monday |
+
+- **Deliveries:** click the contract in the hub to hand in what you're carrying. You
+  can deliver in several trips; the contract tracks your progress.
+- **Kill contracts** count up as you fight. Mobs from spawners don't count.
+
+Contracts have no daily limit beyond the board itself and keep paying standing past
+1,000. Days and weeks reset on Mountain Time (America/Edmonton).
+
 ### Buying from the faction shop
 
 Every shop purchase raises your standing with that faction: **+10** for an Associate
 item, **+20** for Trusted and **+40** for Inner Circle. Past 1,000 standing, the
-shop is how you keep climbing.
+shop and contracts are how you keep climbing.
 
 ### Server projects
 
@@ -116,6 +140,7 @@ replacement.
 
 ## Lore archives
 
-Each faction's page also has a lore archive with 28 entries. A new entry unlocks for
-every 100 standing you earn with that faction. The first entries are already written,
-and more are on the way.
+Each faction has a lore archive with 28 entries, opened from its row in the hub. The
+first entry is free, and the rest unlock as your standing with that faction rises,
+roughly every 100 standing, up to the last one at 2,500. The first ten entries are
+written for every faction, and more are on the way.

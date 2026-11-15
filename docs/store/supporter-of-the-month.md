@@ -9,7 +9,7 @@ icon: material/trophy
 
 # Supporter of the Month
 
-Starts with **November 2026**. The three players who spent the most on the store in a
+Running since **November 2026**. The three players who spent the most on the store in a
 month are announced to the server and rewarded.
 
 | Place | Reward |

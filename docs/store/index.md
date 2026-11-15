@@ -9,7 +9,10 @@ title: Store rewards
      (/storerewards, alias /claimrewards). Checked 2026-10-25.
      Cosmetics section: DeluxeMenus shop/carboncoinshop.yml, shop/cosmetics.yml,
      shop/tags.yml, shop/tags_movienight.yml, plushies/*.yml; CarbonCore CarbonJoin
-     config.yml (prices). Checked on live 2026-11-02, after the CarbonCore 1.1.0 release. -->
+     config.yml (prices). Checked on live 2026-11-02, after the CarbonCore 1.1.0 release.
+     Re-checked 2026-11-15: CarbonCore/CarbonSpend/config.yml per-purchase: {} (Halloween
+     offer retired, Seasonal offers section removed). -->
+
 
 # Store rewards
 
@@ -22,7 +25,7 @@ extra rewards on top of the package itself. They all go through one menu,
 - [Supporter of the Month](supporter-of-the-month.md): the top three supporters each
   month, and the **[MVP™]** tag
 
-Monthly rewards and Supporter of the Month start in **November 2026**.
+Monthly rewards and Supporter of the Month started in **November 2026**.
 
 ## Claiming your rewards
 
@@ -57,9 +60,3 @@ Particles are coming to the Cosmetics menu later.
 Every purchase asks you to confirm before the coins are taken. Tags and join messages
 you already own are marked **Owned** and can't be bought twice. Some can't be bought at
 all and are earned by playing instead; each page lists how to get them.
-
-## Seasonal offers
-
-Some sales come with a bonus. Right now, any single purchase of **$19 or more** adds
-the [Halloween Plushies Pack](../cosmetics/plushies.md) to your rewards chest: ten
-plushies with 27 poses between them. It needs 10 free inventory slots to claim.

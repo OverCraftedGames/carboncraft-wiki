@@ -8,7 +8,8 @@ icon: material/teddy-bear
      category); ItemsAdder nogs_menagerie plushies core (floor-only furniture, interact
      sound), staffplush/configs/plushies.yml and halloween/configs/halloween.yml (pose
      swap on interact); ExcellentCrates zombie_crate.yml (5 plushie rewards).
-     Checked 2026-10-24. -->
+     Checked 2026-10-24. Re-checked 2026-11-15: plushie_packs.yml adds pack_chess_white /
+     pack_chess_black (700 coins, 16 pieces each, 3-4 blocks tall, ItemsAdder lunar_studios). -->
 
 # Plushies
 
@@ -98,6 +99,12 @@ Spooky season in one box. 10 plushies, 27 poses in all.
 | Trick-or-Treat Basket | Empty, Full |
 | Giant Jack o' Lantern | Unlit, Lit |
 | Little Jack o' Lantern | Unlit, Lit |
+
+### White and Black Chess Set Packs
+
+One side of a giant lawn chess set per pack: **16 pieces** each (8 pawns, 2 rooks,
+2 knights, 2 bishops, a queen and a king). Buy both for a full game. The pieces stand
+3–4 blocks tall, so build the board with 2-block squares.
 
 ## Custom orders
 

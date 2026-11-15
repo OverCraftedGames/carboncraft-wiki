@@ -5,7 +5,7 @@ icon: material/message-badge
 <!-- Sources: CarbonCore CarbonJoin config.yml (sets, prices, requires, relog-cooldown 10,
      earned checks 5s after join / on opening the menu / every 5 minutes); DeluxeMenus
      shop/cosmetics.yml (Join Messages button). Checked on live 2026-11-02, after the
-     CarbonCore 1.1.0 release. -->
+     CarbonCore 1.1.0 release. Re-checked 2026-11-15: live relog-cooldown-seconds is 5. -->
 
 # Join messages
 
@@ -65,5 +65,5 @@ works. Once you've earned a set you keep it, even if your standing drops later.
 Everyone has the **Classic** set.
 
 !!! note "Relogging"
-    If you leave and come back within 10 seconds, you get the normal join message
+    If you leave and come back within 5 seconds, you get the normal join message
     instead of your set, so nobody can spam theirs.

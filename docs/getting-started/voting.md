@@ -4,7 +4,8 @@ icon: material/vote
 
 <!-- Sources (live): CMI Settings/Ranks.yml (35 votes per tier, rank I..); DeluxeMenus
      votetiers.yml / votetiers_2.yml (perks, CarbonCoin week); VotingPlugin VoteSites.yml
-     (6 enabled sites). Checked 2026-10-24. Perk table covers tiers I–XXV; menus define up to XXXVI. -->
+     (6 enabled sites). Checked 2026-10-24. Perk table covers tiers I–XXV; menus define up to XXXVI.
+     Re-checked 2026-11-15: VoteSites.yml Rewards.Commands money give 50 + acb 10 on all 6 sites. -->
 
 # Voting & vote tiers
 
@@ -18,6 +19,7 @@ once a day.
 
 Each vote gives you:
 
+- **$50** and **10 claim blocks**
 - progress toward your next **vote tier**
 - **vote points** to spend in `/voteshop`
 - progress toward the server's **vote party**

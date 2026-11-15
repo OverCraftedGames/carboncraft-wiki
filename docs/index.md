@@ -29,7 +29,7 @@ In game, `/help` opens a menu with every feature on the server.
 ## Mining & fishing
 
 - [Mining](activities/mining.md): levels, Carbon, gemstones, artifacts, Vessels and Oracle bosses
-- [Fishing](activities/fishing.md): 157 custom fish, augments, deliveries, totems and tournaments
+- [Fishing](activities/fishing.md): 182 custom fish, augments, deliveries, totems and tournaments
 
 ## Skills
 
@@ -39,12 +39,15 @@ you permanent stats and effects. Type `/skills` to see yours.
 ## The Syndicate
 
 Four factions, one planet. [Earn standing](syndicates/index.md) with CarbonCorp™, the
-ISD, the Union and Vivec's Rebels to unlock gear you can't get anywhere else.
+ISD, the Union and Vivec's Rebels to unlock gear you can't get anywhere else, and take
+on their daily and weekly contracts.
 
 ## Cosmetics
 
 - [Tags](cosmetics/tags.md): coloured chat tags, bought in packs or earned
-- [Plushies](cosmetics/plushies.md): 111 mob plushies plus staff and Halloween packs
+- [Plushies](cosmetics/plushies.md): 111 mob plushies plus staff, Halloween and chess packs
+- [Join messages](cosmetics/join-messages.md): your own message when you join or leave
+- [Collector's Codex](cosmetics/codex.md): track every collectible you've gathered
 
 ## Elsewhere
 

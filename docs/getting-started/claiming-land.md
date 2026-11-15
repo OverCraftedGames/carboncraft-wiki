@@ -5,7 +5,9 @@ icon: material/shield-home
 <!-- Sources (live): GriefPreventionData/config.yml (InitialBlocks, accrual, max accrued,
      MinimumWidth, MinimumArea, AutomaticNewPlayerClaimsRadius, tools, AbandonReturnRatio,
      ExtendIntoGroundDistance); DeluxeMenus votetiers.yml (+100 claimblocks per tier);
-     rtp.yml (claims disabled in Nether/End). Checked 2026-10-24. -->
+     rtp.yml (claims disabled in Nether/End). Checked 2026-10-24.
+     Re-checked 2026-11-15: VoteSites.yml (acb 10 per vote); DailyRewardsPlus Rewards.yml
+     (November rotation: 200 / 200 / 500 claim blocks on days 4, 9, 20). -->
 
 # Claiming land
 
@@ -24,7 +26,9 @@ Every claim costs **claim blocks**: one per block of floor area. A 10 × 10 clai
 |---|---|
 | Starting amount | 100 |
 | Playing | 100 per hour, up to 25,000 in total |
+| Each vote | +10 |
 | Each vote tier | +100 |
+| Daily login rewards | Several days a month, a few hundred at a time |
 
 Check what you have with `/claimslist`, or on the Player Stats head in `/help`.
 

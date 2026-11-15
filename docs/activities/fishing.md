@@ -5,16 +5,19 @@ icon: material/fish
 <!-- Sources (live): PyroFishingPro config.yml (tier prices/chances, Entropy, FishingXP,
      PartyFishing, Augments RequiredLevel, Scales, GuttingStation, Totems passives,
      Deliveries, SpecialFish, crabs, broadcasts, AllowAutoFishers false), fish.yml
-     (157 fish: 34/21/25/26/31/20), bait.yml, tournaments.yml (AutoStart, min 10 players,
-     600 s, 6 fixed times, rewards), messages.yml (descriptions, command list).
+     (182 fish: 40/26/29/30/34/23), bait.yml, tournaments.yml (AutoStart, min 5 players,
+     600 s, Schedule.FlatDuration 3600 = hourly, so SpecificTimes are ignored; rewards),
+     messages.yml (descriptions, command list). Deliveries.Rewards has no boosters.
      Augments CheckForLevel is false; levels listed are the ones the augment item shows.
-     Crab Crusher and Snow Globe (event augments) left out. Checked 2026-10-24.
+     Crab Crusher and Snow Globe (event augments) left out. Checked 2026-10-24,
+     re-checked 2026-11-15.
      Moonlure: CarbonCore 1.1.0 Moonlure/config.yml (live 2026-11-02). -->
 
 # Fishing
 
-CarbonCraft runs **PyroFishingPro**. On top of vanilla fishing you can catch 157
-custom fish across six tiers. Catches level you up and earn **Entropy**, fishing's own
+CarbonCraft runs **PyroFishingPro**. On top of vanilla fishing you can catch 182
+custom fish across six tiers, including fish themed on the four
+[Syndicate](../syndicates/index.md) factions. Catches level you up and earn **Entropy**, fishing's own
 currency, which you spend on **augments** for your rod.
 
 **Shift-click while holding a fishing rod** to open the fishing menu, or type `/fish menu`.
@@ -45,12 +48,12 @@ where to find each one.
 
 | Tier | Fish | Chance | Sells for | Entropy | Fishing XP |
 |---|---|---|---|---|---|
-| Bronze | 34 | 50% | $10 | 45 | 75 |
-| Silver | 21 | 25% | $55 | 110 | 150 |
-| Gold | 25 | 5% | $150 | 200 | 300 |
-| Diamond | 26 | 2% | $500 | 350 | 700 |
-| Platinum | 31 | 1% | $1,000 | 1,250 | 1,900 |
-| Mythical | 20 | 0.04% | $2,500 | 10,000 | 6,000 |
+| Bronze | 40 | 50% | $10 | 45 | 75 |
+| Silver | 26 | 25% | $55 | 110 | 150 |
+| Gold | 29 | 5% | $150 | 200 | 300 |
+| Diamond | 30 | 2% | $500 | 350 | 700 |
+| Platinum | 34 | 1% | $1,000 | 1,250 | 1,900 |
+| Mythical | 23 | 0.04% | $2,500 | 10,000 | 6,000 |
 
 Platinum and Mythical catches are announced to the whole server.
 
@@ -158,8 +161,7 @@ Carbon Spike** catches the Carbon Fiber Cutlass and the Man o' Carbon.
 For every **125 custom fish** you catch, you earn a delivery. Open `/fish deliveries`,
 hand over the fish it asks for, and after a wait (15 minutes for common deliveries, up
 to 10 hours for mythical ones) you collect the rewards: augment ingredients, Entropy
-Crystals, **lures** that raise your Crab, Platinum or Mythical odds for 30 minutes,
-and **Entropy boosters**.
+Crystals, and **lures** that raise your Crab, Platinum or Mythical odds for 30 minutes.
 
 ## Totems
 
@@ -182,9 +184,8 @@ Totems have passives that unlock as your fishing level rises:
 
 ## Tournaments
 
-Fishing tournaments start automatically every four hours (00:00, 04:00, 08:00, 12:00,
-16:00 and 20:00 server time) **if at least 10 players are online**. Each one lasts 10
-minutes, with a random goal: longest fish, shortest fish, most catches, most crabs
+Fishing tournaments start automatically **every hour**, as long as at least **5
+players** are online. Each one lasts 10 minutes, with a random goal: longest fish, shortest fish, most catches, most crabs
 killed, longest cast, most biomes, most Entropy, or catching a specific fish.
 
 | Place | Reward |

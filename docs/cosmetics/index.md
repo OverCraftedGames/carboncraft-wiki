@@ -14,4 +14,8 @@ for how to earn them.
 - [Join messages](join-messages.md): your own line in chat when you log in and leave.
   Buy one, or earn one by voting, levelling a skill or rising in a faction.
 - [Plushies](plushies.md): 111 mob plushies in three sizes, plus staff and Halloween
-  packs whose plushies change pose when you right-click them.
+  packs whose plushies change pose when you right-click them, and two giant chess sets.
+- [Collector's Codex](codex.md): a record of every Heirloom, Syndicate item, plushie
+  and tag you've collected.
+
+`/cosmetics` opens the Cosmetics shop directly. Particles are on the way.

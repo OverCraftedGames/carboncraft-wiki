@@ -4,7 +4,10 @@ icon: material/compass-outline
 
 <!-- Sources (live): DeluxeMenus gui_menus/help.yml, rtp.yml, quests.yml;
      CMI config.yml (Economy.StartingAmount); CMI CustomText tip_*.txt;
-     GriefPreventionData/config.yml; server.properties (difficulty). Checked 2026-10-24. -->
+     GriefPreventionData/config.yml; server.properties (difficulty). Checked 2026-10-24.
+     Re-checked 2026-11-15: WorldGuard world_nether / world_the_end __global__ pvp deny;
+     rtp.yml (Legacy world removed, now /museum = CustomAlias museum); VotingPlugin
+     VoteSites.yml ($50 + 10 claim blocks per vote); CustomAlias tutorial, wiki. -->
 
 # Your first hour
 
@@ -15,6 +18,7 @@ griefed. This is the quickest way from spawn to a safe home.
 
 Type `/help` (or `/guide`). It's one screen with every feature on the server and live
 stats for your account. Come back to it whenever you're unsure where something is.
+`/tutorial` takes you back to the new-player spawn if you want to walk through it again.
 
 ## 2. Teleport into the wild
 
@@ -28,13 +32,12 @@ PvP is off in every world.
 | Overworld | yes | never | from the start |
 | Nether | no | monthly | vote tier X |
 | The End | no | monthly | vote tier XX |
-| Legacy World | no | never | from the start |
 
-The Legacy World is the old 1.21 CarbonCraft map, kept as a museum. You can explore it
-in adventure mode but can't build there.
+The Legacy World, the old 1.21 CarbonCraft map, is kept as a museum. Type `/museum` to
+visit it. You can explore it but can't build there.
 
 !!! warning "Build your base in the Overworld"
-    Nothing in the Nether or End is safe, and both are wiped every month.
+    You can't claim land in the Nether or End, and both are wiped every month.
 
 ## 3. Claim your land
 
@@ -60,8 +63,9 @@ dig up at your own chest shop, or buy what you need from someone else's. Type
 
 ## 6. Vote every day
 
-`/vote` lists the voting sites. Every vote counts toward your **vote tier**, which
-brings free money, claim blocks, homes, warps and access to the Nether and End.
+`/vote` lists the voting sites. Each vote pays **$50 and 10 claim blocks** straight
+away, and counts toward your **vote tier**, which brings more money, claim blocks,
+homes, warps and access to the Nether and End.
 Voting on all six sites in one day also pays CarbonCoins. See [Voting & vote tiers](voting.md).
 
 ## 7. Check your daily stuff
@@ -75,3 +79,4 @@ reward**. Claim the login reward every day to keep your streak.
 - `/wallet`: your balance, CarbonCoins, vote points and crate keys
 - `/crates`: warp to the crates and spend your keys
 - `/discord`: the Discord invite
+- `/wiki`: a link back to this wiki

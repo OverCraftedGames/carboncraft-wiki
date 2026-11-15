@@ -4,7 +4,10 @@ icon: material/cash-multiple
 
 <!-- Sources (live): CMI config.yml (StartingAmount); DeluxeMenus help.yml, chestshop.yml,
      wallet.yml, votetiers.yml; CMI CustomAlias (wallet, coinshop, voteshop, crates, pw);
-     tip_crates.txt. Checked 2026-10-24. -->
+     tip_crates.txt. Checked 2026-10-24.
+     Re-checked 2026-11-15: VoteSites.yml ($50 per vote); DailyRewardsPlus Rewards.yml
+     (monthly rotation, money on several days); ExcellentCrates crates/ (vote, carbon,
+     plasma, fusion, iridium, fishing, zombie, seasonal halloween); wallet.yml keys. -->
 
 # Money & currencies
 
@@ -12,7 +15,7 @@ CarbonCraft has four things you can earn and spend. `/wallet` shows all of them 
 
 | Currency | How you earn it | Where you spend it |
 |---|---|---|
-| **Dollars ($)** | Selling to players, vote tiers, Zombies runs | Player shops, auctions |
+| **Dollars ($)** | Selling to players, $50 per vote, vote tiers, daily login rewards, Zombies runs | Player shops, auctions |
 | **CarbonCoins** | A perfect vote day (all 6 sites), the store | `/coinshop` |
 | **Vote points** | Every vote | `/voteshop` |
 | **Crate keys** | Voting, milestones, the store | `/crates` |
@@ -59,6 +62,13 @@ week. They're also sold on the [store](https://store.carboncraft.xyz). Spend the
 ## Crate keys
 
 Keys go straight into your account, so they don't take up inventory space. Type
-`/crates` to warp to the crates and open them. There are five crates, from common to
-rare: **Vote**, **Carbon**, **Plasma**, **Fusion** and **Iridium**. Rarer crates have
+`/crates` to warp to the crates and open them. The main crates, from common to rare,
+are **Vote**, **Carbon**, **Plasma**, **Fusion** and **Iridium**. Rarer crates have
 better rewards and longer odds.
+
+Two more have their own source:
+
+- **Fishing** keys are sold in `/coinshop` and `/voteshop`.
+- **Zombie** keys are wave rewards in the Zombies arena.
+
+Seasonal crates, like the Halloween crate, show up during events.

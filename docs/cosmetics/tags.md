@@ -11,7 +11,10 @@ icon: material/tag
      megaproject_rewards.yml (carboncorp); DailyRewardsPlus Rewards.yml Day 31 + Config.yml
      (PauseStreakWhenMissed true); CarbonSpend config.yml (mvp, held for a month);
      ExcellentCrates crates/*.yml (carbon, fusion, plasma, zombie tag rewards).
-     Staff-only and one-off tags (builder, viibe) left out. Rendered tag HTML comes from scripts/render-tags.py. Checked 2026-10-24. -->
+     Staff-only and one-off tags (builder, viibe) left out. Rendered tag HTML comes from scripts/render-tags.py. Checked 2026-10-24.
+     Re-checked 2026-11-15: carboncoinshop.yml -> shop/cosmetics.yml -> tags;
+     DailyRewardsPlus Rewards.yml is a 30-day monthly rotation with no Daily tag day
+     (November day 29 gives harvest). turkey tag exists but has no source in configs; left out. -->
 
 # Tags
 
@@ -29,8 +32,8 @@ The menu title shows how many tags you own.
 
 ## Tag packs
 
-The tag shop is in `/coinshop` → **Tags**. Each pack is **350 CarbonCoins** and unlocks
-five tags at once.
+The tag shop is in `/coinshop` → **Cosmetics** → **Tags** (or `/cosmetics` → **Tags**).
+Each pack is **350 CarbonCoins** and unlocks five tags at once.
 
 | Pack | Theme | Tags |
 |---|---|---|
@@ -94,7 +97,7 @@ destroyed rather than paid to anyone.
 | Tag | How to get it |
 |---|---|
 | <span class="mc-tag"><span style="color:#555555">[</span><span style="color:#A7C188;font-weight:700">V</span><span style="color:#82BE64;font-weight:700">O</span><span style="color:#5DBB40;font-weight:700">T</span><span style="color:#39B81D;font-weight:700">E</span><span style="color:#555555">]</span></span> | 1,000 vote points in `/voteshop` |
-| <span class="mc-tag"><span style="color:#555555">[</span><span style="color:#0B3D91;font-weight:700">D</span><span style="color:#1D5097;font-weight:700">a</span><span style="color:#2F649E;font-weight:700">i</span><span style="color:#4177A4;font-weight:700">l</span><span style="color:#548BAB;font-weight:700">y</span><span style="color:#555555">]</span></span> | Claim the day 31 reward in your daily login rewards (`/daily`). A missed day pauses your streak instead of resetting it. |
+| <span class="mc-tag"><span style="color:#555555">[</span><span style="color:#0B3D91;font-weight:700">D</span><span style="color:#1D5097;font-weight:700">a</span><span style="color:#2F649E;font-weight:700">i</span><span style="color:#4177A4;font-weight:700">l</span><span style="color:#548BAB;font-weight:700">y</span><span style="color:#555555">]</span></span> | A daily login reward (`/daily`). The rewards change every month and this tag isn't in the current rotation; watch `/daily` for it. A missed day pauses your streak instead of resetting it. |
 | <span class="mc-tag"><span style="color:#555555">[</span><span style="color:#00CBFF;font-weight:700">C</span><span style="color:#0187FF;font-weight:700">O</span><span style="color:#0244FF;font-weight:700">R</span><span style="color:#0300FF;font-weight:700">P</span><span style="color:#555555">]</span></span> | Qualify for the rewards of the Planetary Refinery megaproject (`/megaproject`) |
 | <span class="mc-tag"><span style="color:#555555">[</span><span style="color:#0B3D91;font-weight:700">M</span><span style="color:#2F649E;font-weight:700">V</span><span style="color:#548BAB;font-weight:700">P</span><span style="color:#FFFFFF">™</span><span style="color:#555555">]</span></span> | Be the server's top store supporter for the month ([Supporter of the Month](../store/supporter-of-the-month.md)). You keep it until the next month's MVP is announced. |
 | <span class="mc-tag"><span style="color:#555555">[</span><span style="color:#0B3D91;font-weight:700">R</span><span style="color:#144794;font-weight:700">e</span><span style="color:#1D5198;font-weight:700">c</span><span style="color:#265A9B;font-weight:700">r</span><span style="color:#30649E;font-weight:700">u</span><span style="color:#396EA1;font-weight:700">i</span><span style="color:#4278A5;font-weight:700">t</span><span style="color:#4B81A8;font-weight:700">e</span><span style="color:#548BAB;font-weight:700">r</span><span style="color:#FFFFFF">™</span><span style="color:#555555">]</span></span> | Have 3 friends you [invited](../getting-started/inviting-friends.md) play 2 hours each |
@@ -116,7 +119,11 @@ These can drop as crate rewards.
 | <span class="mc-tag"><span style="color:#555555">[</span><span style="color:#4F7942;font-weight:700">R</span><span style="color:#638853;font-weight:700">o</span><span style="color:#789664;font-weight:700">t</span><span style="color:#8CA575;font-weight:700">b</span><span style="color:#A0B486;font-weight:700">a</span><span style="color:#B5C297;font-weight:700">n</span><span style="color:#C9D1A8;font-weight:700">e</span><span style="color:#555555">]</span></span> | Zombie Crate |
 
 A tag you win from a crate is the same tag as the one in the shop. If you already own
-it, a pack that includes it still costs the full 350 CarbonCoins.
+it, a pack that includes it still costs the full 350 CarbonCoins, unless you own the
+whole pack.
+
+Daily login rewards can include tags from the packs too, so check `/daily` before you
+buy. Your [Collector's Codex](codex.md) lists every tag and how to get it.
 
 Every fifth [vote tier](../getting-started/voting.md) also adds a suffix after your
 name. That suffix is part of your rank, not a tag, so you can wear both.
