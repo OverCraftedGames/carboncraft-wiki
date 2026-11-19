@@ -6,6 +6,10 @@ icon: material/pickaxe
      Artifacts, Vessels, Runes, Oracles, Zeta, MiningLevels; Halloween event disabled),
      messages.yml (journal text, vessel list, gemstone names, command list),
      DeluxeMenus help.yml (PyroMining button). Checked 2026-10-24.
+     Requiums section (2026-11-19): messages.yml Requium.Description, Vessels/Requiums
+     journal text, ShatteredRequium, AbyssalShard, FinalWhisper lore; config.yml
+     Vessels.Thralls and Oracles Phase3 drops. Numbers 1-12 follow the Hebrew numeral
+     names; the plugin only says "each represent a different number. 1 to 12".
      Blacksmith is "not implemented" per the plugin's own journal text, so it's left out. -->
 
 # Mining
@@ -126,14 +130,11 @@ boss.
 2. **Craft it**: put all 8 parts in a Refinery.
 3. **Drag the Vessel onto your pickaxe** to start it. The item shows the mining level
    and Zeta it needs.
-4. **Defeat the Vessel's boss with Requiums.** You need three Requiums in the right
-   order, set in `/mine vessels`. You can guess, or kill the **Thralls** that turn up
-   while you mine (at most one every 2 minutes); each kill reveals more of the correct
-   order. Once the boss is dead, the Vessel's effect is added to your pickaxe.
+4. **Defeat the Vessel's boss with [Requiums](#requiums).** You need three Requiums in
+   the right order, set in `/mine vessels`. Once the boss is dead, the Vessel's effect
+   is added to your pickaxe.
 
-There are 12 Requiums, and you get them from Tier 3 or higher artifacts once you've
-bought the *Final Whisper* upgrade in `/mine artifacts`. Adding a second Vessel of the
-same type levels it up.
+Adding a second Vessel of the same type levels it up.
 
 | Vessel | What it does | Max level bonus |
 |---|---|---|
@@ -152,6 +153,59 @@ The full list, including each Vessel's quirks, is in `/mine journal`.
 !!! warning "Removing Vessels costs 100,000 Zeta"
     **Remove all Vessels** in `/mine vessels` returns every Vessel on the pickaxe you're
     holding. There's no confirmation step.
+
+## Requiums
+
+**Requium Orbs** are the keys to a Vessel's boss. Every Vessel needs a combination of
+three, in the right order, and the boss can't be beaten without it.
+
+### The 12 Requiums
+
+Each Requium stands for a number from 1 to 12.
+
+| # | Requium | In-game description |
+|---|---|---|
+| 1 | Aleph | This orb emits an aura similar to speed. |
+| 2 | Bet | You feel time stall with this orb. |
+| 3 | Gimel | You feel yourself age while holding this. |
+| 4 | Daleth | You feel time start to rewind looking at this. |
+| 5 | Heh | You see a glimpse of the future from this. |
+| 6 | Vav | Your mind transmits into a past body of yours. |
+| 7 | Zayin | Time freezes while you hold this. |
+| 8 | Het | You emit an aura that clones yourself. |
+| 9 | Tet | You feel someone else's senses from this. |
+| 10 | Yud | Peek into the past of this object. |
+| 11 | Yud Aleph | You feel yourself rift into the future. |
+| 12 | Yud Bet | You feel a time rift going back into the past. |
+
+### Getting Requiums
+
+- **Artifacts:** buy the **Final Whisper** upgrade in `/mine artifacts`. After that,
+  identifying a Tier 3 (Epic) or higher artifact can give you a Requium Orb. Each level
+  of Final Whisper adds 0.5% to the chance.
+- **Shattered Requium Orbs:** hold four and right-click to make one random Requium Orb.
+  You get three shattered orbs back each time you beat a Vessel boss, and Mysterious Dust
+  has a 10% chance to give one from mining level 30.
+- **Abyssal Shards:** a rare drop from Tohka, the Phase 3 [Oracle](#oracles). Drag one
+  onto a Requium Orb to duplicate it.
+
+### Cracking the combination
+
+Open `/mine vessels` while holding the pickaxe with the active Vessel. Place a Requium
+in each of the three slots, then attack. There are two ways to find the right order:
+
+- **Guess.** If a Requium is right *and* in the right slot, you're told, and it's
+  unlocked from then on. The book at the top of the menu shows your previous attempts:
+  green Requiums were in the right place; red ones are in the wrong slot or not in the
+  combination at all.
+- **Kill Thralls.** Thralls are small mobs that sometimes appear when you break ore
+  (7% per ore, with at least 2 minutes between them). Each kill adds 5–11% progress
+  towards revealing the Requium for a slot. At 100%, the menu tells you which Requium
+  goes there. Thralls get tougher the more Vessels your pickaxe has.
+
+Two things speed this up: the **Requium Progress** upgrade in the
+[Singularity](#rune-guardians-and-the-singularity) gives more progress per Thrall, and
+**Necros' Vessel** gives bonus Requium progress and makes Thralls appear more often.
 
 ## Rune Guardians and the Singularity
 
