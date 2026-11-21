@@ -33,7 +33,7 @@ PvP is off in every world.
 | Nether | no | monthly | vote tier X |
 | The End | no | monthly | vote tier XX |
 
-The Legacy World, the old 1.21 CarbonCraft map, is kept as a museum. Type `/museum` to
+The Legacy World, the old 1.21 map from the OCG Survival days, is kept as a museum. Type `/museum` to
 visit it. You can explore it but can't build there.
 
 !!! warning "Build your base in the Overworld"
@@ -66,7 +66,7 @@ dig up at your own chest shop, or buy what you need from someone else's. Type
 `/vote` lists the voting sites. Each vote pays **$50 and 10 claim blocks** straight
 away, and counts toward your **vote tier**, which brings more money, claim blocks,
 homes, warps and access to the Nether and End.
-Voting on all six sites in one day also pays CarbonCoins. See [Voting & vote tiers](voting.md).
+Voting on all six sites in one day also pays Credits. See [Voting & vote tiers](voting.md).
 
 ## 7. Check your daily stuff
 
@@ -76,7 +76,7 @@ reward**. Claim the login reward every day to keep your streak.
 ## Handy extras
 
 - `/bp`: your backpack, extra storage you carry everywhere
-- `/wallet`: your balance, CarbonCoins, vote points and crate keys
+- `/wallet`: your balance, Credits, vote points and crate keys
 - `/crates`: warp to the crates and spend your keys
 - `/discord`: the Discord invite
 - `/wiki`: a link back to this wiki

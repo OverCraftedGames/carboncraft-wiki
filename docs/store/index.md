@@ -16,7 +16,7 @@ title: Store rewards
 
 # Store rewards
 
-Everything you buy on the [store](https://store.carboncraft.xyz) also counts towards
+Everything you buy on the [store](https://minecraft.ocgames.xyz/store.html) also counts towards
 extra rewards on top of the package itself. They all go through one menu,
 `/storerewards`.
 
@@ -26,6 +26,17 @@ extra rewards on top of the package itself. They all go through one menu,
   month, and the **[MVP™]** tag
 
 Monthly rewards and Supporter of the Month started in **November 2026**.
+
+## What's on the store
+
+The [OCG Network store](https://minecraft.ocgames.xyz/store.html) is shared by every OCG
+server, and everything on it works on OCG Survival:
+
+| | What it is | More |
+|---|---|---|
+| **OCG+** | A monthly loot drop of Credits and a crate key. Three tiers: Charged, Overcharged and Supercharged | [OCG+](https://minecraft.ocgames.xyz/plus.html) |
+| **Network ranks** | Permanent ranks, Copper to Emerald. On Survival they add homes, auction listings, player warps, claim blocks and commands | [Ranks](https://minecraft.ocgames.xyz/ranks.html#survival) |
+| **Credits** | The network currency, in packs. Spend them in `/coinshop` | [Credits](../getting-started/money.md#credits) |
 
 ## Claiming your rewards
 
@@ -45,18 +56,18 @@ Type `/storerewards` (or `/claimrewards`) to open your rewards chest.
 
 ## Cosmetics
 
-CarbonCoins from the store are spent in `/coinshop`. Tags and join messages are under
+Credits from the store are spent in `/coinshop`. Tags and join messages are under
 **Cosmetics**, and plushies have their own button next to it.
 
 | Cosmetic | Price | Details |
 |---|---|---|
-| Tag packs, five tags each | 350 CarbonCoins | [Tags](../cosmetics/tags.md#tag-packs) |
-| Movie night tags | 100 CarbonCoins each | [Tags](../cosmetics/tags.md#movie-night-tags) |
-| Join messages | 500, 750 or 1,000 CarbonCoins | [Join messages](../cosmetics/join-messages.md) |
-| Plushies | 100 to 200 CarbonCoins, packs 700 | [Plushies](../cosmetics/plushies.md) |
+| Tag packs, five tags each | 350 Credits | [Tags](../cosmetics/tags.md#tag-packs) |
+| Movie night tags | 100 Credits each | [Tags](../cosmetics/tags.md#movie-night-tags) |
+| Join messages | 500, 750 or 1,000 Credits | [Join messages](../cosmetics/join-messages.md) |
+| Plushies | 100 to 200 Credits, packs 700 | [Plushies](../cosmetics/plushies.md) |
 
 Particles are coming to the Cosmetics menu later.
 
-Every purchase asks you to confirm before the coins are taken. Tags and join messages
+Every purchase asks you to confirm before the Credits are taken. Tags and join messages
 you already own are marked **Owned** and can't be bought twice. Some can't be bought at
 all and are earned by playing instead; each page lists how to get them.

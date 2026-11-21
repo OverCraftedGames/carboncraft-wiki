@@ -11,7 +11,7 @@ icon: material/shield-home
 
 # Claiming land
 
-CarbonCraft uses **GriefPrevention**. A claim is an area only you, and the people you
+OCG Survival uses **GriefPrevention**. A claim is an area only you, and the people you
 trust, can build in, break blocks in or open chests in. Anything outside a claim is
 fair game.
 

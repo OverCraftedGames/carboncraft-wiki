@@ -20,11 +20,11 @@ icon: material/console-line
 | `/help` | The main help menu, with every feature (also `/guide`) |
 | `/rtp` | Random teleport into the Overworld, Nether or End |
 | `/quests` | Daily, monthly and story quests, plus daily login rewards (also `/daily`) |
-| `/wallet` | Your balance, CarbonCoins, vote points and crate keys |
+| `/wallet` | Your balance, Credits, vote points and crate keys |
 | `/voting` | Vote tiers and your progress (also `/ranks`) |
 | `/voteshop` | Spend vote points |
-| `/coinshop` | Spend CarbonCoins on [tags](../cosmetics/tags.md), [plushies](../cosmetics/plushies.md), keys and more |
-| `/cosmetics` | Buy [tags](../cosmetics/tags.md) and [join messages](../cosmetics/join-messages.md) |
+| `/coinshop` | Spend Credits on [tags](../cosmetics/tags.md), [plushies](../cosmetics/plushies.md), keys and more |
+| `/credits` | Your [Credits](money.md#credits) balance (`/credits history` for every purchase and spend, `/credits top` for the leaderboard) || `/cosmetics` | Buy [tags](../cosmetics/tags.md) and [join messages](../cosmetics/join-messages.md) |
 | `/tags` | Pick the [tag](../cosmetics/tags.md) shown next to your name |
 | `/joinmessage` | Pick your [join and leave message](../cosmetics/join-messages.md) |
 | `/codex` | Your [Collector's Codex](../cosmetics/codex.md) |

@@ -1,72 +1,271 @@
-/* CarbonCraft colours, taken from the in-game menus (help.yml title gradient, megaproject cyan). */
-:root {
-  --cc-section-color: #0b3d91;
-  --md-primary-fg-color: #0b3d91;
-  --md-primary-fg-color--light: #2f5fb3;
-  --md-primary-fg-color--dark: #082c69;
-  --md-accent-fg-color: #3ea7b6;
-  --md-accent-fg-color--transparent: rgba(62, 167, 182, 0.1);
-}
+/* OCG Survival wiki. Same brand as the OCG Network site (minecraft.ocgames.xyz,
+   network-site/assets/site.css): logo teal #3afff5 on near-black, with Survival's green
+   (#7ed957) as the accent, and the logo's diamond as the recurring shape. Dark only. */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap");
 
+:root,
 [data-md-color-scheme="slate"] {
-  --cc-section-color: #6cc4d1;
-  --md-default-bg-color: #0d1220;
-  --md-primary-fg-color: #0b3d91;
-  --md-typeset-a-color: #6cc4d1;
-  --md-accent-fg-color: #6cc4d1;
+  --ocg-bg: #040607;
+  --ocg-bg-2: #0a0f10;
+  --ocg-surface: rgba(13, 19, 20, 0.86);
+  --ocg-surface-2: #101819;
+  --ocg-line: rgba(58, 255, 245, 0.1);
+  --ocg-line-strong: rgba(58, 255, 245, 0.26);
+  --ocg-text: #f4fbfb;
+  --ocg-text-2: #cddada;
+  --ocg-muted: #869a9b;
+  --ocg-teal: #3afff5;
+  --ocg-teal-2: #12c9c0;
+  --ocg-teal-ink: #021615;
+  --ocg-survival: #7ed957;
+  --ocg-display: "Space Grotesk", "Bahnschrift", system-ui, sans-serif;
+
+  --md-text-font: "Inter";
+  --md-code-font: "JetBrains Mono";
+
+  --md-hue: 183;
+  --md-default-bg-color: var(--ocg-bg);
+  --md-default-fg-color: rgba(244, 251, 251, 0.94);
+  --md-default-fg-color--light: rgba(205, 218, 218, 0.82);
+  --md-default-fg-color--lighter: rgba(134, 154, 155, 0.6);
+  --md-default-fg-color--lightest: rgba(58, 255, 245, 0.1);
+  --md-typeset-color: var(--ocg-text-2);
+
+  --md-primary-fg-color: var(--ocg-teal);
+  --md-primary-fg-color--light: #7ffff9;
+  --md-primary-fg-color--dark: var(--ocg-teal-2);
+  --md-primary-bg-color: var(--ocg-text);
+  --md-primary-bg-color--light: var(--ocg-muted);
+  --md-accent-fg-color: var(--ocg-survival);
+  --md-accent-fg-color--transparent: rgba(126, 217, 87, 0.1);
+  --md-accent-bg-color: var(--ocg-teal-ink);
+
+  --md-typeset-a-color: var(--ocg-teal);
+  --md-code-bg-color: rgba(58, 255, 245, 0.06);
+  --md-code-fg-color: #b9fffb;
+  --md-typeset-mark-color: rgba(126, 217, 87, 0.25);
+  --md-typeset-table-color: var(--ocg-line);
+  --md-typeset-table-color--light: rgba(58, 255, 245, 0.035);
+
+  --md-footer-fg-color: var(--ocg-text);
+  --md-footer-fg-color--light: var(--ocg-muted);
+  --md-footer-fg-color--lighter: rgba(134, 154, 155, 0.7);
+  --md-footer-bg-color: var(--ocg-bg-2);
+  --md-footer-bg-color--dark: var(--ocg-bg);
+
+  --md-admonition-bg-color: var(--ocg-surface);
+  --md-shadow-z1: none;
+  --md-shadow-z2: 0 18px 50px rgba(0, 0, 0, 0.5);
 }
 
-/* Header logo is square with transparent padding; let it fill the bar. */
-.md-header__button.md-logo img {
-  height: 2rem;
+/* A faint green glow over a fine diamond lattice, as on the network site. */
+body {
+  background-color: var(--ocg-bg);
+  background-image:
+    radial-gradient(1100px 560px at 15% -12%, rgba(126, 217, 87, 0.13), transparent 65%),
+    radial-gradient(900px 500px at 100% 0%, rgba(58, 255, 245, 0.07), transparent 70%),
+    repeating-linear-gradient(45deg, rgba(58, 255, 245, 0.025) 0 1px, transparent 1px 34px),
+    repeating-linear-gradient(-45deg, rgba(58, 255, 245, 0.025) 0 1px, transparent 1px 34px);
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
 }
+
+/* Header */
+.md-header {
+  background: rgba(4, 6, 7, 0.82);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--ocg-line);
+  color: var(--ocg-text);
+}
+.md-header--shadow { box-shadow: none; border-bottom-color: var(--ocg-line-strong); }
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg { height: 1.7rem; width: auto; }
+.md-header__title { font-family: var(--ocg-display); font-weight: 700; letter-spacing: -0.01em; }
+
+.md-search__form { background: rgba(58, 255, 245, 0.06); border: 1px solid var(--ocg-line); border-radius: 10px; }
+.md-search__form:hover { background: rgba(58, 255, 245, 0.1); }
+[data-md-toggle="search"]:checked ~ .md-header .md-search__form { background: var(--ocg-surface-2); border-radius: 10px 10px 0 0; }
+.md-search__output { background: var(--ocg-surface-2); }
+.md-search-result__meta { background: var(--ocg-bg-2); color: var(--ocg-muted); }
+
+/* Headings */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+  font-family: var(--ocg-display);
+  letter-spacing: -0.015em;
+  color: var(--ocg-text);
+}
+.md-typeset h1 { font-weight: 700; font-size: 2.2em; margin-bottom: 0.8em; }
+.md-typeset h2 { font-weight: 700; padding-top: 0.6em; border-top: 1px solid var(--ocg-line); }
+.md-typeset h2::before {
+  content: "";
+  display: inline-block;
+  width: 0.38em;
+  height: 0.38em;
+  margin-right: 0.55em;
+  vertical-align: 0.18em;
+  background: var(--ocg-survival);
+  transform: rotate(45deg);
+}
+.md-typeset h3 { font-weight: 600; }
+
+.md-typeset a:hover { color: var(--md-primary-fg-color--light); text-decoration: underline; }
+.md-typeset strong { color: var(--ocg-text); }
+.md-typeset code { border-radius: 6px; }
 
 /* Sidebar sections (desktop only; on narrow screens sections are drill-down menus).
-   Section names read as headings, separated by a rule, with their pages hung off a
-   guide line underneath. */
+   Section names read as green mono labels, separated by a rule, with
+   their pages hung off a guide line underneath. */
+.md-nav__link--active,
+.md-nav__item .md-nav__link--active { color: var(--ocg-teal); font-weight: 600; }
+.md-nav__link:hover, .md-nav__link:focus { color: var(--md-primary-fg-color--light); }
 @media screen and (min-width: 76.25em) {
   .md-nav--primary .md-nav__item--section {
     margin-top: 0.9em;
     padding-top: 0.9em;
-    border-top: 1px solid var(--md-default-fg-color--lightest);
+    border-top: 1px solid var(--ocg-line);
   }
-
   .md-nav--primary .md-nav__item--section > .md-nav__link,
   .md-nav--primary .md-nav__item--section > .md-nav__container > .md-nav__link {
-    color: var(--cc-section-color);
-    font-size: 0.68rem;
-    font-weight: 700;
-    letter-spacing: 0.06em;
+    color: var(--ocg-survival);
+    font-family: var(--md-code-font-family);
+    font-size: 0.62rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
   }
-
   .md-nav--primary .md-nav__item--section > .md-nav > .md-nav__list {
     margin-left: 0.45rem;
     padding-left: 0.45rem;
-    border-left: 2px solid var(--md-default-fg-color--lightest);
+    border-left: 2px solid var(--ocg-line);
   }
 }
 
-/* Links page cards: bigger brand icons, tinted with the section colour. */
+/* Tables */
+.md-typeset table:not([class]) {
+  background: var(--ocg-surface);
+  border: 1px solid var(--ocg-line);
+  border-radius: 12px;
+  overflow: hidden;
+  font-size: 0.72rem;
+}
+.md-typeset table:not([class]) th {
+  background: rgba(58, 255, 245, 0.05);
+  color: var(--ocg-muted);
+  font-family: var(--md-code-font-family);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.md-typeset table:not([class]) td { border-top-color: var(--ocg-line); }
+
+/* Admonitions */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 12px;
+  border-width: 1px;
+  border-color: var(--ocg-line-strong);
+  box-shadow: none;
+}
+.md-typeset .admonition-title,
+.md-typeset summary { font-family: var(--ocg-display); font-weight: 600; }
+
+/* Cards (Links page) */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid.cards > ol > li {
+  background: var(--ocg-surface);
+  border: 1px solid var(--ocg-line);
+  border-radius: 16px;
+}
+.md-typeset .grid.cards > ul > li:hover,
+.md-typeset .grid.cards > ol > li:hover {
+  border-color: var(--ocg-line-strong);
+  box-shadow: 0 0 0 1px var(--ocg-line-strong), 0 18px 50px rgba(0, 0, 0, 0.5);
+}
+.md-typeset .grid.cards > ul > li > hr { border-bottom-color: var(--ocg-line); }
 .md-typeset .grid.cards .twemoji.lg {
   height: 1.6em;
   width: 1.6em;
   vertical-align: middle;
   margin-right: 0.3em;
-  color: var(--cc-section-color);
+  color: var(--ocg-teal);
 }
 
-.md-typeset img.hero-logo {
-  display: block;
-  margin: 0 auto 1rem;
-  max-width: 260px;
-  width: 60%;
+/* Home page hero: OCG diamond, "OCG Survival" wordmark and the server address. */
+.md-typeset .ocg-hero {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin: 0 0 2rem;
+  padding: 1.6rem;
+  background: var(--ocg-surface);
+  border: 1px solid var(--ocg-line);
+  border-radius: 16px;
 }
+.md-typeset .ocg-hero > p:first-child { flex: none; margin: 0; line-height: 0; }
+.md-typeset .ocg-hero__logo { width: 6.5rem; height: auto; }
+.md-typeset .ocg-hero__label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  margin: 0 0 0.4rem;
+  color: var(--ocg-survival);
+  font: 600 0.62rem/1.2 var(--md-code-font-family);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.md-typeset .ocg-hero__label::before {
+  content: "";
+  width: 0.35rem;
+  height: 0.35rem;
+  background: currentColor;
+  transform: rotate(45deg);
+}
+.md-typeset .ocg-hero h1 { margin: 0 0 0.4rem; font-size: 2.4em; line-height: 1.05; }
+.md-typeset .ocg-hero h1 em { font-style: normal; color: var(--ocg-survival); }
+.md-typeset .ocg-hero h1 .headerlink { display: none; }
+.md-typeset .ocg-hero p { margin: 0 0 0.9rem; }
+.md-typeset .ocg-ip {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.45rem 0.55rem 0.45rem 0.8rem;
+  background: var(--ocg-bg-2);
+  border: 1px solid var(--ocg-line-strong);
+  border-radius: 10px;
+}
+.md-typeset .ocg-ip code {
+  padding: 0;
+  background: none;
+  color: var(--ocg-teal);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+.md-typeset .ocg-ip span { color: var(--ocg-muted); font-size: 0.68rem; }
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .ocg-hero { flex-direction: column; align-items: flex-start; gap: 1rem; padding: 1.2rem; }
+  .md-typeset .ocg-hero__logo { width: 4.5rem; }
+  .md-typeset .ocg-hero h1 { font-size: 2em; }
+}
+
+/* Footer */
+.md-footer { border-top: 1px solid var(--ocg-line); }
+.md-footer__link:hover { color: var(--ocg-teal); }
+.md-copyright a { color: var(--ocg-teal); }
+.md-social__link svg { fill: var(--ocg-muted); }
+.md-social__link:hover svg { fill: var(--ocg-teal); }
+
+/* Back-to-top button */
+.md-top { background: var(--ocg-surface-2); color: var(--ocg-text); border: 1px solid var(--ocg-line-strong); }
+.md-top:hover { background: var(--ocg-teal); color: var(--ocg-teal-ink); }
 
 /* DeluxeTags rendered as they look in chat: per-letter colours on a dark chat chip.
-   Same chip in both schemes so the in-game colours read the same. The faint light halo
-   keeps the darkest gradients (Ghast, Daily, CORP) legible without washing out the
-   bright ones, which a lighter chip did. */
+   The faint light halo keeps the darkest gradients (Ghast, Daily, CORP) legible without
+   washing out the bright ones. */
 .md-typeset .mc-tag {
   display: inline-block;
   padding: 0.15em 0.5em;
@@ -77,8 +276,4 @@
   font-size: 1.15em;
   letter-spacing: 0.02em;
   white-space: nowrap;
-}
-
-.md-typeset .server-address {
-  font-size: 1.1rem;
 }

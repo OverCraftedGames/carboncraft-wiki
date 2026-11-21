@@ -8,20 +8,24 @@ icon: material/server-network
 
 # Joining the server
 
-CarbonCraft accepts both **Minecraft: Java Edition** and **Minecraft: Bedrock Edition**
+OCG Survival accepts both **Minecraft: Java Edition** and **Minecraft: Bedrock Edition**
 (Windows, mobile, Xbox, PlayStation, Switch). Java and Bedrock players share the
 same worlds and the same economy, so you can play with friends on either edition.
+
+!!! tip "Joined as CarbonCraft before?"
+    The old address, `play.carboncraft.xyz`, still works and takes you to the same server.
+    You can switch your saved server to `play.ocgames.xyz` whenever you like.
 
 ## Java Edition
 
 | | |
 |---|---|
-| **Address** | `play.carboncraft.xyz` |
+| **Address** | `play.ocgames.xyz` |
 | **Port** | not needed |
 | **Version** | 26.2 or newer |
 
 1. Open **Multiplayer**, then **Add Server**.
-2. Enter `play.carboncraft.xyz` as the server address.
+2. Enter `play.ocgames.xyz` as the server address.
 3. Click **Done**, then join.
 
 Older versions can't connect. If you see "Outdated client", update your game.
@@ -33,16 +37,16 @@ items, plushies and menus won't display properly.
 
 | | |
 |---|---|
-| **Address** | `play.carboncraft.xyz` |
+| **Address** | `play.ocgames.xyz` |
 | **Port** | `19132` |
 | **Version** | latest Bedrock release |
 
 1. Open **Play**, then the **Servers** tab.
 2. Scroll down and choose **Add Server**.
-3. Enter any name, `play.carboncraft.xyz` as the address and `19132` as the port.
+3. Enter any name, `play.ocgames.xyz` as the address and `19132` as the port.
 4. Save, then join.
 
-Your first join downloads CarbonCraft's resource pack, so that custom items, plushies
+Your first join downloads OCG Survival's resource pack, so that custom items, plushies
 and menus display correctly. Accept it when asked.
 
 ### Your name on Bedrock

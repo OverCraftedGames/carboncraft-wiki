@@ -9,7 +9,7 @@ icon: material/vote
 
 # Voting & vote tiers
 
-Voting is the main way to rank up on CarbonCraft, and it's free. Each vote helps the
+Voting is the main way to rank up on OCG Survival, and it's free. Each vote helps the
 server get found by new players, and pays you back.
 
 ## How to vote
@@ -46,14 +46,14 @@ and a new chat suffix.
 The tiers continue past XXV. Type `/voting` to see every tier, what it unlocks and how
 close you are to the next one.
 
-## CarbonCoin week
+## Credits week
 
-Vote on **all six sites in one day** to claim that day's CarbonCoins. The reward
+Vote on **all six sites in one day** to claim that day's Credits. The reward
 climbs each day:
 
 | Day | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 |---|---|---|---|---|---|---|---|
-| CarbonCoins | 2 | 4 | 6 | 8 | 10 | 12 | 14 |
+| Credits | 2 | 4 | 6 | 8 | 10 | 12 | 14 |
 
-A perfect week pays **56 CarbonCoins**, then starts again at day 1. Miss a day and
+A perfect week pays **56 Credits**, then starts again at day 1. Miss a day and
 the week resets.

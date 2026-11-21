@@ -6,6 +6,23 @@ icon: material/link-variant
 
 <div class="grid cards" markdown>
 
+-   :material-web:{ .lg .middle } **OCG Network**
+
+    ---
+
+    News, every OCG server and the network store, all in one place.
+
+    [:octicons-arrow-right-24: minecraft.ocgames.xyz](https://minecraft.ocgames.xyz/)
+
+-   :material-store:{ .lg .middle } **Store**
+
+    ---
+
+    OCG+, network ranks and Credits. Everything works on every OCG server, and it all
+    helps keep the servers running.
+
+    [:octicons-arrow-right-24: minecraft.ocgames.xyz/store](https://minecraft.ocgames.xyz/store.html)
+
 -   :fontawesome-brands-discord:{ .lg .middle } **Discord**
 
     ---
@@ -13,15 +30,6 @@ icon: material/link-variant
     Support, announcements, events, giveaways and build showcases.
 
     [:octicons-arrow-right-24: discord.gg/carboncraft](https://discord.gg/carboncraft)
-
--   :material-store:{ .lg .middle } **Store**
-
-    ---
-
-    Ranks, crate keys, cosmetics and CarbonCoin bundles. Everything helps keep the
-    server running.
-
-    [:octicons-arrow-right-24: store.carboncraft.xyz](https://store.carboncraft.xyz)
 
 -   :fontawesome-brands-instagram:{ .lg .middle } **Instagram**
 
@@ -31,21 +39,16 @@ icon: material/link-variant
 
     [:octicons-arrow-right-24: @carboncraftxyz](https://www.instagram.com/carboncraftxyz/)
 
--   :material-web:{ .lg .middle } **Website**
-
-    ---
-
-    OverCrafted Games, the team behind CarbonCraft.
-
-    [:octicons-arrow-right-24: ocgames.xyz](https://ocgames.xyz)
-
 </div>
 
 ## Server address
 
 | Edition | Address | Port |
 |---|---|---|
-| Java | `play.carboncraft.xyz` | not needed |
-| Bedrock | `play.carboncraft.xyz` | `19132` |
+| Java | `play.ocgames.xyz` | not needed |
+| Bedrock | `play.ocgames.xyz` | `19132` |
 
-More in [Joining the server](getting-started/joining.md).
+The old address, `play.carboncraft.xyz`, still works. More in
+[Joining the server](getting-started/joining.md).
+
+OverCrafted Games, the studio behind OCG Network: [ocgames.xyz](https://ocgames.xyz).

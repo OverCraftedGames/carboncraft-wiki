@@ -1,16 +1,26 @@
 ---
 icon: material/home
+title: Home
 ---
 
-# CarbonCraft Wiki
+<div class="ocg-hero" markdown>
+<img class="ocg-hero__logo" src="assets/logo.png" alt="OCG">
+<div markdown>
+<p class="ocg-hero__label">Wiki · Java &amp; Bedrock</p>
 
-![CarbonCraft](assets/logo-full.png){ .hero-logo }
+# OCG <em>Survival</em>
 
-Welcome to CarbonCraft, a hard-difficulty survival server with a player-run economy,
-custom enchants, crates, quests and the occasional CarbonCorp™ directive.
+A hard-difficulty survival server with a player-run economy, custom enchants, crates,
+quests and the occasional CarbonCorp™ directive. The first server on OCG Network.
 
-**Server address:** `play.carboncraft.xyz` (Java and Bedrock)
-{ .server-address }
+<span class="ocg-ip">`play.ocgames.xyz` <span>Java and Bedrock</span></span>
+</div>
+</div>
+
+!!! info "Coming from CarbonCraft?"
+    CarbonCraft is now **OCG Survival**. Your world, items, claims, money and friends are
+    all where you left them. CarbonCoins are now [Credits](getting-started/money.md#credits)
+    (1:1, automatically), and `play.carboncraft.xyz` still works.
 
 ## Getting started
 
@@ -19,7 +29,7 @@ New here? Read these in order.
 1. [Joining the server](getting-started/joining.md): Java and Bedrock connection details
 2. [Your first hour](getting-started/first-steps.md): from spawn to a safe, claimed base
 3. [Claiming land](getting-started/claiming-land.md): protecting your builds
-4. [Money & currencies](getting-started/money.md): dollars, CarbonCoins, vote points and keys
+4. [Money & currencies](getting-started/money.md): dollars, Credits, vote points and keys
 5. [Voting & vote tiers](getting-started/voting.md): the free rank ladder
 6. [Commands](getting-started/commands.md): everything you can type, in one list
 7. [Rules](getting-started/rules.md)
@@ -51,10 +61,10 @@ on their daily and weekly contracts.
 
 ## Elsewhere
 
+- OCG Network: [minecraft.ocgames.xyz](https://minecraft.ocgames.xyz/) (news, every server, the store)
+- Store: [minecraft.ocgames.xyz/store](https://minecraft.ocgames.xyz/store.html) (OCG+, network ranks and Credits)
 - Discord: [discord.gg/carboncraft](https://discord.gg/carboncraft) (support, announcements, giveaways)
-- Store: [store.carboncraft.xyz](https://store.carboncraft.xyz)
 - Instagram: [@carboncraftxyz](https://www.instagram.com/carboncraftxyz/)
-- Website: [ocgames.xyz](https://ocgames.xyz)
 
-All of these are also on the [Links](links.md) page. Who runs CarbonCraft, how Carbon+
-works and where to get help: [About](about.md).
+All of these are also on the [Links](links.md) page. Who runs OCG Survival, how OCG+
+and network ranks work and where to get help: [About](about.md).

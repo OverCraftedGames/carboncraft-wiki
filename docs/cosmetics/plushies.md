@@ -14,9 +14,9 @@ icon: material/teddy-bear
 # Plushies
 
 Plushies are decorations you place in your base. Buy them in `/coinshop` → **Plushies**
-with CarbonCoins.
+with Credits.
 
-You need CarbonCraft's resource pack to see them. Without it they show up as paper (see
+You need OCG Survival's resource pack to see them. Without it they show up as paper (see
 [Joining the server](../getting-started/joining.md)).
 
 ## Placing a plushie
@@ -33,9 +33,9 @@ Enderman is small and the Panda is large. Open each size's menu to see what's in
 
 | Size | How big | Plushies | Price each |
 |---|---|---|---|
-| Small | Compact, fits on a shelf | 46 | 100 CarbonCoins |
-| Medium | About a block across | 38 | 150 CarbonCoins |
-| Large | Oversized display piece | 27 | 200 CarbonCoins |
+| Small | Compact, fits on a shelf | 46 | 100 Credits |
+| Medium | About a block across | 38 | 150 Credits |
+| Large | Oversized display piece | 27 | 200 Credits |
 
 ??? note "Small plushies (46)"
     Allay, Bat, Bee, Black & White Rabbit, Black Rabbit, Blue Parrot, Breeze, Brown
@@ -65,7 +65,7 @@ Husk plushies.
 
 ## Plushie packs
 
-Themed bundles, **700 CarbonCoins** each. Pack plushies have more than one pose:
+Themed bundles, **700 Credits** each. Pack plushies have more than one pose:
 **right-click a placed one** to switch to the next pose.
 
 ### Staff Plushies Pack
@@ -109,7 +109,7 @@ One side of a giant lawn chess set per pack: **16 pieces** each (8 pawns, 2 rook
 ## Custom orders
 
 Want plushies of **you**? A custom order is a pack of 5 to 8 plushies themed around
-you, picked by staff, for **1,000 CarbonCoins**.
+you, picked by staff, for **1,000 Credits**.
 
 To order, contact **Lapid_Pope** or **ApathyOnHigh**. Nothing is taken when you ask:
-staff take the coins once you've agreed on the pack.
+staff take the Credits once you've agreed on the pack.

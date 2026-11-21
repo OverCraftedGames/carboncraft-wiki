@@ -14,7 +14,7 @@ icon: material/pickaxe
 
 # Mining
 
-CarbonCraft runs **PyroMining**, which turns every ore you break into progress. Ores
+OCG Survival runs **PyroMining**, which turns every ore you break into progress. Ores
 give mining XP and **Zeta** (mining's own currency), and they sometimes drop Carbon,
 gemstones, artifacts and Mysterious Dust. Further in, you summon bosses and add
 **Vessels** to your pickaxe: permanent, levelable pickaxe enchantments.
@@ -62,7 +62,7 @@ time as an item, so you can trade it with other players.
 
 ### Carbon
 
-**Carbon** is CarbonCraft's core resource. Every Overworld ore (coal, iron, copper,
+**Carbon** is OCG Survival's core resource. Every Overworld ore (coal, iron, copper,
 gold, redstone, lapis, diamond and emerald) has a 5% chance to drop one. Nether ores
 never do.
 

@@ -26,17 +26,17 @@ You use one set at a time, and you keep every set you've unlocked.
 
 ## Buying a set
 
-Sets with a price are bought with **CarbonCoins** straight from the menu. Left-click
-one, then confirm. The coins are taken and the set is put on straight away.
+Sets with a price are bought with **Credits** straight from the menu. Left-click
+one, then confirm. The Credits are taken and the set is put on straight away.
 
 | Set | Join message | Price |
 |---|---|---|
-| Spark | ✦ *you* sparked into the server. | 500 CarbonCoins |
-| Deep Sea | 🎣 *you* surfaced from the deep. | 500 CarbonCoins |
-| Clocked In | ⌚ *you* has clocked in. Productivity +1% | 750 CarbonCoins |
-| Night Owl | ☾ *you* rose with the moon. | 750 CarbonCoins |
-| Warp Drive | ⚡ *you* warped in from the void. | 1,000 CarbonCoins |
-| Red Carpet | ♛ All rise for *you*. | 1,000 CarbonCoins |
+| Spark | ✦ *you* sparked into the server. | 500 Credits |
+| Deep Sea | 🎣 *you* surfaced from the deep. | 500 Credits |
+| Clocked In | ⌚ *you* has clocked in. Productivity +1% | 750 Credits |
+| Night Owl | ☾ *you* rose with the moon. | 750 Credits |
+| Warp Drive | ⚡ *you* warped in from the void. | 1,000 Credits |
+| Red Carpet | ♛ All rise for *you*. | 1,000 Credits |
 
 The menu won't sell you a set you already own.
 

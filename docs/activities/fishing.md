@@ -15,7 +15,7 @@ icon: material/fish
 
 # Fishing
 
-CarbonCraft runs **PyroFishingPro**. On top of vanilla fishing you can catch 182
+OCG Survival runs **PyroFishingPro**. On top of vanilla fishing you can catch 182
 custom fish across six tiers, including fish themed on the four
 [Syndicate](../syndicates/index.md) factions. Catches level you up and earn **Entropy**, fishing's own
 currency, which you spend on **augments** for your rod.
@@ -122,7 +122,7 @@ one has several levels.
 
 ### Moonlure
 
-**Moonlure** is CarbonCraft's own augment. Some fish only bite at night; with Moonlure
+**Moonlure** is OCG Survival's own augment. Some fish only bite at night; with Moonlure
 on your rod, each daytime catch has a chance to open those night fish up as if it were
 night. Bait, biome and the other rules still apply, so it lets night fish bite rather
 than handing one out.
@@ -153,7 +153,7 @@ doesn't count.
 
 Some rare fish only bite on a specific bait. Bait costs $1,000 in the bait store (in
 `/fish menu`), needs fishing level 10, and lasts 50–75 catches. Drag it onto your rod
-to apply it. The codex shows which fish need which bait. CarbonCraft's own **Pure
+to apply it. The codex shows which fish need which bait. OCG Survival's own **Pure
 Carbon Spike** catches the Carbon Fiber Cutlass and the Man o' Carbon.
 
 ## Deliveries

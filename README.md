@@ -1,11 +1,11 @@
-# CarbonCraft player wiki (source)
+# OCG Survival player wiki (source)
 
-Player-facing wiki, built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).
+Player-facing wiki for OCG Survival (formerly CarbonCraft), built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).
 
 - `mkdocs.yml`: site settings and the sidebar order (`nav:`). New pages must be added there.
 - `docs/index.md`: home page
 - `docs/getting-started/`: joining, first hour, claims, money, voting, commands, rules
-- `docs/assets/`: logo, favicon and `extra.css` (CarbonCraft colours)
+- `docs/assets/`: OCG logo, favicon and `extra.css` (OCG Network brand: teal `#3afff5` on black, Survival green `#7ed957`, dark only; matches `network-site/assets/site.css`)
 
 ## Preview locally
 

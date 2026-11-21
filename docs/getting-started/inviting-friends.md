@@ -11,7 +11,7 @@ icon: material/account-multiple-plus
 # Inviting friends
 
 CarbonCorp's **Employee Referral Program™** rewards you for bringing friends to
-CarbonCraft. The rewards come as your friend sticks around, and they get a welcome bonus
+OCG Survival. The rewards come as your friend sticks around, and they get a welcome bonus
 too.
 
 ## If a friend invited you
@@ -27,7 +27,7 @@ change it afterwards, so check the spelling.
 
 The person you name must:
 
-- have joined CarbonCraft before you
+- have joined OCG Survival before you
 - have played for at least 2 hours
 - not be on the same internet connection as you. If you live together, ask staff to
   link you.
@@ -45,7 +45,7 @@ paid as they reach each milestone:
 | Settled In | Play 2 hours | 1 Carbon Key (and they get one too) |
 | Regular | Play 10 hours | 1 Plasma Key + a random [plushie](../cosmetics/plushies.md) |
 | Voter | Reach 12 [votes](voting.md) | 1 Plasma Key + a random plushie |
-| Supporter | Spend $10 or more in total in the [store](https://store.carboncraft.xyz) | 1 Iridium Key + a random plushie |
+| Supporter | Spend $10 or more in total in the [store](https://minecraft.ocgames.xyz/store.html) | 1 Iridium Key + a random plushie |
 
 - Playtime counts from the moment they link to you. Time spent AFK doesn't count.
 - If you're offline when a milestone is reached, your reward waits until you next join.

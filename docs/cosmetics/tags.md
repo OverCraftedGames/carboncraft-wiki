@@ -33,7 +33,7 @@ The menu title shows how many tags you own.
 ## Tag packs
 
 The tag shop is in `/coinshop` → **Cosmetics** → **Tags** (or `/cosmetics` → **Tags**).
-Each pack is **350 CarbonCoins** and unlocks five tags at once.
+Each pack is **350 Credits** and unlocks five tags at once.
 
 | Pack | Theme | Tags |
 |---|---|---|
@@ -46,16 +46,16 @@ Each pack is **350 CarbonCoins** and unlocks five tags at once.
 | Hallowed | Dragged back from the other side | Ghoul, Hexed, Cursed, Reaper, Spook |
 | Bountiful | Gathered at the end of the harvest | Feast, Gobble, Harvest, Gravy, Carver |
 
-You confirm each purchase before the coins are taken.
+You confirm each purchase before the Credits are taken.
 
 Once you own all five tags in a pack it shows as **Owned** and can't be bought again.
-If you only own some of them, the pack still costs the full 350 CarbonCoins.
+If you only own some of them, the pack still costs the full 350 Credits.
 
 ## Movie night tags
 
 Every movie night gives the players who come along a tag for that film. Missed one?
 They're sold one at a time in `/coinshop` → **Cosmetics** → **Tags** → **Movie Night
-Tags**, **100 CarbonCoins** each.
+Tags**, **100 Credits** each.
 
 | Tag | Description |
 |---|---|
@@ -75,7 +75,7 @@ Tags you already own show as **Owned**.
 ## Flex tags
 
 Seven tags that do nothing except prove you had the money. Open them with `/exchange`
-(or `/sink`) → **Flex Tags**. They cost **dollars**, not CarbonCoins, and the money is
+(or `/sink`) → **Flex Tags**. They cost **dollars**, not Credits, and the money is
 destroyed rather than paid to anyone.
 
 | Tag | Price |
@@ -119,7 +119,7 @@ These can drop as crate rewards.
 | <span class="mc-tag"><span style="color:#555555">[</span><span style="color:#4F7942;font-weight:700">R</span><span style="color:#638853;font-weight:700">o</span><span style="color:#789664;font-weight:700">t</span><span style="color:#8CA575;font-weight:700">b</span><span style="color:#A0B486;font-weight:700">a</span><span style="color:#B5C297;font-weight:700">n</span><span style="color:#C9D1A8;font-weight:700">e</span><span style="color:#555555">]</span></span> | Zombie Crate |
 
 A tag you win from a crate is the same tag as the one in the shop. If you already own
-it, a pack that includes it still costs the full 350 CarbonCoins, unless you own the
+it, a pack that includes it still costs the full 350 Credits, unless you own the
 whole pack.
 
 Daily login rewards can include tags from the packs too, so check `/daily` before you

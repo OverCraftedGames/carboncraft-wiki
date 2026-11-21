@@ -21,7 +21,7 @@ title: The Syndicate
 
 ![The Syndicate: four factions, one planet, pick a side](../assets/syndicates/01-title-card.webp)
 
-Four factions are fighting over Isernium, the planet CarbonCraft takes place on. Each
+Four factions are fighting over Isernium, the planet OCG Survival takes place on. Each
 one tracks your **standing** separately. Raise it, and that faction opens its shop of
 gear you can't get anywhere else.
 

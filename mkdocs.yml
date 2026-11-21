@@ -1,6 +1,7 @@
-site_name: CarbonCraft Wiki
-site_description: Player guide for the CarbonCraft Minecraft server
+site_name: OCG Survival Wiki
+site_description: Player guide for OCG Survival, the survival server on OCG Network
 site_url: https://wiki.carboncraft.xyz/
+copyright: OCG Survival is part of <a href="https://minecraft.ocgames.xyz/">OCG Network</a> by <a href="https://ocgames.xyz">OverCrafted Games</a>.
 
 nav:
   - Home: index.md
@@ -51,21 +52,12 @@ theme:
   name: material
   logo: assets/logo.png
   favicon: assets/favicon.png
+  # Dark only, matching the OCG Network site. Fonts load from extra.css.
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
+    scheme: slate
+    primary: custom
+    accent: custom
+  font: false
   features:
     - navigation.instant
     - navigation.sections
@@ -80,19 +72,20 @@ extra_css:
   - assets/extra.css
 
 extra:
+  generator: false
   social:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/carboncraft
-      name: CarbonCraft Discord
+      name: OCG Network Discord
     - icon: material/store
-      link: https://store.carboncraft.xyz
-      name: CarbonCraft Store
+      link: https://minecraft.ocgames.xyz/store.html
+      name: OCG Network store
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/carboncraftxyz/
-      name: CarbonCraft on Instagram
+      name: Instagram
     - icon: material/web
-      link: https://ocgames.xyz
-      name: OverCrafted Games
+      link: https://minecraft.ocgames.xyz/
+      name: OCG Network
 
 markdown_extensions:
   - tables
