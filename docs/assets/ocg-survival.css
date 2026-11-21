@@ -85,9 +85,9 @@ body {
 .md-header__button.md-logo svg { height: 1.7rem; width: auto; }
 .md-header__title { font-family: var(--ocg-display); font-weight: 700; letter-spacing: -0.01em; }
 
-.md-search__form { background: rgba(58, 255, 245, 0.06); border: 1px solid var(--ocg-line); border-radius: 10px; }
-.md-search__form:hover { background: rgba(58, 255, 245, 0.1); }
-[data-md-toggle="search"]:checked ~ .md-header .md-search__form { background: var(--ocg-surface-2); border-radius: 10px 10px 0 0; }
+.md-search__form { background-color: rgba(58, 255, 245, 0.06); border: 1px solid var(--ocg-line); border-radius: 10px; }
+.md-search__form:hover { background-color: rgba(58, 255, 245, 0.1); }
+[data-md-toggle="search"]:checked ~ .md-header .md-search__form { background-color: var(--ocg-surface-2); }
 .md-search__output { background: var(--ocg-surface-2); }
 .md-search-result__meta { background: var(--ocg-bg-2); color: var(--ocg-muted); }
 
@@ -116,7 +116,7 @@ body {
 
 .md-typeset a:hover { color: var(--md-primary-fg-color--light); text-decoration: underline; }
 .md-typeset strong { color: var(--ocg-text); }
-.md-typeset code { border-radius: 6px; }
+.md-typeset code { padding: 0.1em 0.45em; }
 
 /* Sidebar sections (desktop only; on narrow screens sections are drill-down menus).
    Section names read as green mono labels, separated by a rule, with
@@ -185,8 +185,9 @@ body {
 }
 .md-typeset .grid.cards > ul > li:hover,
 .md-typeset .grid.cards > ol > li:hover {
-  border-color: var(--ocg-line-strong);
-  box-shadow: 0 0 0 1px var(--ocg-line-strong), 0 18px 50px rgba(0, 0, 0, 0.5);
+  --ocg-notch-line: var(--ocg-teal);
+  border-color: var(--ocg-teal);
+  box-shadow: none;
 }
 .md-typeset .grid.cards > ul > li > hr { border-bottom-color: var(--ocg-line); }
 .md-typeset .grid.cards .twemoji.lg {
@@ -280,3 +281,62 @@ body {
   letter-spacing: 0.02em;
   white-space: nowrap;
 }
+
+/* Notched corners: every box has its top-left and bottom-right corners cut at 45°, like
+   a HUD panel. clip-path does the cut. The two gradients draw the border along each cut,
+   because clip-path removes the real border there. --ocg-notch sets the cut size and
+   --ocg-notch-line its colour (match the box's border colour). */
+.md-typeset .ocg-hero,
+.md-typeset .ocg-ip,
+.md-typeset table:not([class]),
+.md-typeset .admonition,
+.md-typeset details,
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid.cards > ol > li,
+.md-search__form,
+[data-md-toggle="search"]:checked ~ .md-header .md-search__form,
+.md-top,
+.md-typeset code,
+.md-typeset .mc-tag {
+  --ocg-notch: 14px;
+  --ocg-notch-line: var(--ocg-line);
+  border-radius: 0;
+  clip-path: polygon(var(--ocg-notch) 0, 100% 0, 100% calc(100% - var(--ocg-notch)),
+    calc(100% - var(--ocg-notch)) 100%, 0 100%, 0 var(--ocg-notch));
+  background-image:
+    linear-gradient(to bottom right, transparent 50%, var(--ocg-notch-line) 50%,
+      var(--ocg-notch-line) calc(50% + 1.2px), transparent calc(50% + 1.2px)),
+    linear-gradient(to top left, transparent 50%, var(--ocg-notch-line) 50%,
+      var(--ocg-notch-line) calc(50% + 1.2px), transparent calc(50% + 1.2px));
+  background-position: top left, bottom right;
+  background-size: var(--ocg-notch) var(--ocg-notch);
+  background-repeat: no-repeat;
+  background-origin: border-box;
+}
+.md-typeset .ocg-hero { --ocg-notch: 22px; }
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid.cards > ol > li { --ocg-notch: 18px; }
+.md-typeset .ocg-ip,
+.md-search__form,
+[data-md-toggle="search"]:checked ~ .md-header .md-search__form,
+.md-top { --ocg-notch: 9px; --ocg-notch-line: var(--ocg-line-strong); }
+.md-search__form { --ocg-notch-line: var(--ocg-line); }
+.md-typeset code,
+.md-typeset .mc-tag { --ocg-notch: 5px; --ocg-notch-line: transparent; }
+.md-top:hover { --ocg-notch-line: var(--ocg-teal); }
+
+/* Callouts: one border colour per type, from the brand instead of Material's blues. */
+.md-typeset .admonition,
+.md-typeset details { --ocg-notch-line: var(--ocg-line-strong); }
+.md-typeset .admonition:is(.note, .info),
+.md-typeset details:is(.note, .info) { --ocg-notch-line: var(--ocg-teal-2); border-color: var(--ocg-teal-2); }
+.md-typeset :is(.note, .info) > :is(.admonition-title, summary) { background-color: rgba(58, 255, 245, 0.08); }
+.md-typeset :is(.note, .info) > :is(.admonition-title, summary)::before { background-color: var(--ocg-teal); }
+.md-typeset .admonition.tip,
+.md-typeset details.tip { --ocg-notch-line: var(--ocg-survival); border-color: var(--ocg-survival); }
+.md-typeset .tip > :is(.admonition-title, summary) { background-color: rgba(126, 217, 87, 0.1); }
+.md-typeset .tip > :is(.admonition-title, summary)::before { background-color: var(--ocg-survival); }
+.md-typeset .admonition.warning,
+.md-typeset details.warning { --ocg-notch-line: #ff9100; }
+.md-typeset .admonition.danger,
+.md-typeset details.danger { --ocg-notch-line: #ff1744; }
