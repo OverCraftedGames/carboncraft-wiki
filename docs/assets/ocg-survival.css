@@ -1,7 +1,7 @@
 /* OCG Survival wiki. Same brand as the OCG Network site (minecraft.ocgames.xyz,
    network-site/assets/site.css): logo teal #3afff5 on near-black, with Survival's green
    (#7ed957) as the accent, and the logo's diamond as the recurring shape. Dark only. */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
 
 /* Every scheme gets the OCG colours, so a light-mode choice saved by the old CarbonCraft
    wiki's toggle can't bring the old look back. */
@@ -21,10 +21,10 @@
   --ocg-teal-2: #12c9c0;
   --ocg-teal-ink: #021615;
   --ocg-survival: #7ed957;
-  --ocg-display: "Space Grotesk", "Bahnschrift", system-ui, sans-serif;
+  --ocg-display: "Montserrat", system-ui, sans-serif;
 
-  --md-text-font: "Inter";
-  --md-code-font: "JetBrains Mono";
+  --md-text-font: "Montserrat";
+  --md-code-font: "Montserrat";
 
   --md-hue: 183;
   --md-default-bg-color: var(--ocg-bg);
@@ -117,6 +117,9 @@ body {
 .md-typeset a:hover { color: var(--md-primary-fg-color--light); text-decoration: underline; }
 .md-typeset strong { color: var(--ocg-text); }
 .md-typeset code { padding: 0.1em 0.45em; }
+/* Inline code is a block, so the notch (clip-path, below) cuts the whole chip; on a
+   wrapped inline box it cut off the end of the text. */
+.md-typeset :not(pre) > code { display: inline-block; vertical-align: baseline; word-break: normal; overflow-wrap: normal; }
 
 /* Sidebar sections (desktop only; on narrow screens sections are drill-down menus).
    Section names read as green mono labels, separated by a rule, with
