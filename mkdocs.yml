@@ -69,7 +69,7 @@ theme:
     - toc.follow
 
 extra_css:
-  - assets/ocg-survival.css
+  - assets/ocg-survival.css?v=3   # bump v on every CSS change so browsers reload it
 
 extra:
   generator: false
