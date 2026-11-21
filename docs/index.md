@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="ocg-hero" markdown>
-<img class="ocg-hero__logo" src="assets/logo.png" alt="OCG">
+<img class="ocg-hero__logo" src="assets/ocg-logo.png" alt="OCG">
 <div markdown>
 <p class="ocg-hero__label">Wiki · Java &amp; Bedrock</p>
 

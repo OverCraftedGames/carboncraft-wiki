@@ -50,9 +50,9 @@ hooks:
 
 theme:
   name: material
-  logo: assets/logo.png
-  favicon: assets/favicon.png
-  # Dark only, matching the OCG Network site. Fonts load from extra.css.
+  logo: assets/ocg-logo.png
+  favicon: assets/ocg-favicon.png
+  # Dark only, matching the OCG Network site. Fonts load from ocg-survival.css.
   palette:
     scheme: slate
     primary: custom
@@ -69,7 +69,7 @@ theme:
     - toc.follow
 
 extra_css:
-  - assets/extra.css
+  - assets/ocg-survival.css
 
 extra:
   generator: false

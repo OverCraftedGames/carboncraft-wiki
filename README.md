@@ -5,7 +5,7 @@ Player-facing wiki for OCG Survival (formerly CarbonCraft), built with [MkDocs M
 - `mkdocs.yml`: site settings and the sidebar order (`nav:`). New pages must be added there.
 - `docs/index.md`: home page
 - `docs/getting-started/`: joining, first hour, claims, money, voting, commands, rules
-- `docs/assets/`: OCG logo, favicon and `extra.css` (OCG Network brand: teal `#3afff5` on black, Survival green `#7ed957`, dark only; matches `network-site/assets/site.css`)
+- `docs/assets/`: OCG logo (`ocg-logo.png`), favicon (`ocg-favicon.png`) and `ocg-survival.css` (OCG Network brand: teal `#3afff5` on black, Survival green `#7ed957`, dark only; matches `network-site/assets/site.css`)
 
 ## Preview locally
 
@@ -43,7 +43,7 @@ The coloured tags on `docs/cosmetics/tags.md` are HTML generated from the live D
 ```
 
 It prints one line per tag ID; paste the HTML into the page's table. The `.mc-tag` chip
-style lives in `docs/assets/extra.css`.
+style lives in `docs/assets/ocg-survival.css`.
 
 ## Publishing
 

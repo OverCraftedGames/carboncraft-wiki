@@ -3,8 +3,11 @@
    (#7ed957) as the accent, and the logo's diamond as the recurring shape. Dark only. */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap");
 
+/* Every scheme gets the OCG colours, so a light-mode choice saved by the old CarbonCraft
+   wiki's toggle can't bring the old look back. */
 :root,
-[data-md-color-scheme="slate"] {
+[data-md-color-scheme] {
+  color-scheme: dark;
   --ocg-bg: #040607;
   --ocg-bg-2: #0a0f10;
   --ocg-surface: rgba(13, 19, 20, 0.86);
