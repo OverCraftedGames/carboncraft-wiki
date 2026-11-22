@@ -47,7 +47,7 @@ style lives in `docs/assets/ocg-survival.css`.
 
 ## Publishing
 
-The wiki is hosted on GitHub Pages at https://wiki.carboncraft.xyz/, from the
+The wiki is hosted on GitHub Pages at https://wiki.ocgames.xyz/, from the
 `OverCraftedGames/carboncraft-wiki` repository (this `wiki/` folder is its root).
 Every push to `main` runs `.github/workflows/deploy.yml`, which does a strict build and
 publishes it. If the build fails (a broken link or anchor), the live site stays on the
@@ -57,4 +57,5 @@ The repository is public, so keep anything staff-only out of the pages and their
 source comments. `hooks/strip_comments.py` removes the comments from the published
 HTML, but they are still readable on GitHub.
 
-DNS for `carboncraft.xyz` is at GoDaddy: `wiki` is a CNAME to `overcraftedgames.github.io`.
+DNS for `ocgames.xyz` is at GoDaddy: `wiki` is a CNAME to `overcraftedgames.github.io`. The wiki moved
+there from wiki.carboncraft.xyz on 2026-11-22; old wiki.carboncraft.xyz links no longer work.
