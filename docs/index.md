@@ -63,7 +63,7 @@ on their daily and weekly contracts.
 
 - OCG Network: [minecraft.ocgames.xyz](https://minecraft.ocgames.xyz/) (news, every server, the store)
 - Store: [minecraft.ocgames.xyz/store](https://minecraft.ocgames.xyz/store.html) (OCG+, network ranks and Credits)
-- Discord: [discord.gg/carboncraft](https://discord.gg/carboncraft) (support, announcements, giveaways)
+- Discord: [discord.gg/ocg](https://discord.gg/ocg) (support, announcements, giveaways)
 - Instagram: [@carboncraftxyz](https://www.instagram.com/carboncraftxyz/)
 
 All of these are also on the [Links](links.md) page. Who runs OCG Survival, how OCG+

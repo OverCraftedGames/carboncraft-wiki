@@ -37,4 +37,4 @@ including situations the rules don't cover.
 - Keep politics and controversy out of chat.
 - Staff decisions are final. No ban evasion.
 
-The full rule list is on [our Discord](https://discord.gg/carboncraft).
+The full rule list is on [our Discord](https://discord.gg/ocg).

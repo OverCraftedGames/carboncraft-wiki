@@ -29,7 +29,7 @@ icon: material/link-variant
 
     Support, announcements, events, giveaways and build showcases.
 
-    [:octicons-arrow-right-24: discord.gg/carboncraft](https://discord.gg/carboncraft)
+    [:octicons-arrow-right-24: discord.gg/ocg](https://discord.gg/ocg)
 
 -   :fontawesome-brands-instagram:{ .lg .middle } **Instagram**
 

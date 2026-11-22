@@ -75,7 +75,7 @@ extra:
   generator: false
   social:
     - icon: fontawesome/brands/discord
-      link: https://discord.gg/carboncraft
+      link: https://discord.gg/ocg
       name: OCG Network Discord
     - icon: material/store
       link: https://minecraft.ocgames.xyz/store.html

@@ -50,6 +50,6 @@ every OCG server. Each server decides its own perks.
 
 ## Support
 
-- **Questions and help:** [our Discord](https://discord.gg/carboncraft)
+- **Questions and help:** [our Discord](https://discord.gg/ocg)
 - **Store and purchase problems:** contact us through the
   [store](https://minecraft.ocgames.xyz/support.html)

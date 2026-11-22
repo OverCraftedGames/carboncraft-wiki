@@ -59,4 +59,4 @@ to type your name in a command, for example `/msg .Steve hi`.
 
 - Double-check the address. The port is `19132` on Bedrock; Java needs no port.
 - Make sure your game is up to date.
-- Still stuck? Ask in [our Discord](https://discord.gg/carboncraft).
+- Still stuck? Ask in [our Discord](https://discord.gg/ocg).
