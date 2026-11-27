@@ -4,7 +4,7 @@ icon: material/vote
 
 <!-- Sources (live): CMI Settings/Ranks.yml (35 votes per tier, rank I..); DeluxeMenus
      votetiers.yml / votetiers_2.yml (perks, CarbonCoin week); VotingPlugin VoteSites.yml
-     (6 enabled sites). Checked 2026-10-24. Perk table covers tiers I–XXV; menus define up to XXXVI.
+     (7 enabled sites; MinecraftServersList added 2026-11-23). Checked 2026-10-24. Perk table covers tiers I–XXV; menus define up to XXXVI.
      Re-checked 2026-11-15: VoteSites.yml Rewards.Commands money give 50 + acb 10 on all 6 sites. -->
 
 # Voting & vote tiers
@@ -14,7 +14,7 @@ server get found by new players, and pays you back.
 
 ## How to vote
 
-Type `/vote` for the list of voting sites. There are **six**. You can vote on each one
+Type `/vote` for the list of voting sites. There are **seven**. You can vote on each one
 once a day.
 
 Each vote gives you:
@@ -48,7 +48,7 @@ close you are to the next one.
 
 ## Credits week
 
-Vote on **all six sites in one day** to claim that day's Credits. The reward
+Vote on **all seven sites in one day** to claim that day's Credits. The reward
 climbs each day:
 
 | Day | 1 | 2 | 3 | 4 | 5 | 6 | 7 |

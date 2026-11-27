@@ -9,7 +9,8 @@ icon: material/teddy-bear
      sound), staffplush/configs/plushies.yml and halloween/configs/halloween.yml (pose
      swap on interact); ExcellentCrates zombie_crate.yml (5 plushie rewards).
      Checked 2026-10-24. Re-checked 2026-11-15: plushie_packs.yml adds pack_chess_white /
-     pack_chess_black (700 coins, 16 pieces each, 3-4 blocks tall, ItemsAdder lunar_studios). -->
+     pack_chess_black (700 coins, 16 pieces each, 3-4 blocks tall, ItemsAdder lunar_studios).
+     Re-checked 2026-11-26: plushie_packs.yml pack_november (Thanksgiving, 700 Credits, 8 plushies). -->
 
 # Plushies
 
@@ -99,6 +100,21 @@ Spooky season in one box. 10 plushies, 27 poses in all.
 | Trick-or-Treat Basket | Empty, Full |
 | Giant Jack o' Lantern | Unlit, Lit |
 | Little Jack o' Lantern | Unlit, Lit |
+
+### Thanksgiving Plushies Pack
+
+A cozy harvest in one box. 8 plushies, 30 poses in all.
+
+| Plushie | Poses |
+|---|---|
+| Gobbles the Turkey | Standing, Relaxed, Sleepy, Dinner |
+| Ember the Fox | Awake, Sleepy (small and large) |
+| Hazel the Squirrel | Normal, Alert, Sleepy |
+| Hoot the Owl | Normal, Curious, Sleepy (small and large) |
+| Straw the Scarecrow | Standing, Waving, Sitting (small and large) |
+| Pumpkin Pie | Whole, Sliced |
+| Pilgrim Hat | Wearable |
+| Leaf Pile | Plain, Peeking, Large, Pounce! |
 
 ### White and Black Chess Set Packs
 

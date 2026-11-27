@@ -16,7 +16,7 @@ OCG Survival has four things you can earn and spend. `/wallet` shows all of them
 | Currency | How you earn it | Where you spend it |
 |---|---|---|
 | **Dollars ($)** | Selling to players, $50 per vote, vote tiers, daily login rewards, Zombies runs | Player shops, auctions |
-| **Credits** | A perfect vote day (all 6 sites), OCG+, the store | `/coinshop` |
+| **Credits** | A perfect vote day (all 7 sites), OCG+, the store | `/coinshop` |
 | **Vote points** | Every vote | `/voteshop` |
 | **Crate keys** | Voting, milestones, the store | `/crates` |
 
@@ -57,7 +57,7 @@ first warp unlocks at vote tier I, with more at higher tiers.
 Credits are the OCG Network currency. Your balance is shared by every OCG server, so a
 Credit spent on one server is gone on the others too.
 
-- **Earn them** by voting on all six sites in one day: the reward climbs every day of the
+- **Earn them** by voting on all seven sites in one day: the reward climbs every day of the
   week, up to 56 Credits for a perfect week (see [Credits week](voting.md#credits-week)).
 - **Buy them** in packs on the [store](https://minecraft.ocgames.xyz/credits.html). Every
   [OCG+](https://minecraft.ocgames.xyz/plus.html) tier also pays Credits each month.

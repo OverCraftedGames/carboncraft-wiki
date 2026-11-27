@@ -35,7 +35,7 @@ server, and everything on it works on OCG Survival:
 | | What it is | More |
 |---|---|---|
 | **OCG+** | A monthly loot drop of Credits and a crate key. Three tiers: Charged, Overcharged and Supercharged | [OCG+](https://minecraft.ocgames.xyz/plus.html) |
-| **Network ranks** | Permanent ranks, Copper to Emerald. On Survival they add homes, auction listings, player warps, claim blocks and commands | [Ranks](https://minecraft.ocgames.xyz/ranks.html#survival) |
+| **Network ranks** | Permanent ranks: Glow, Shine, Dazzle, Prism and Radiant. On Survival they add homes, auction listings, player warps, claim blocks and commands | [Ranks](https://minecraft.ocgames.xyz/ranks.html#survival) |
 | **Credits** | The network currency, in packs. Spend them in `/coinshop` | [Credits](../getting-started/money.md#credits) |
 
 ## Claiming your rewards

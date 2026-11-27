@@ -4,7 +4,7 @@ icon: material/information
 
 <!-- Sources: OCG Network site (network-site/README.md "Going live", assets/data.js,
      news/drafts/launch-posts.md): OCG+ tiers Charged $5 / Overcharged $10 / Supercharged $20,
-     network ranks Copper to Emerald, Carbon+ migration, CarbonCoins -> Credits 1:1.
+     network ranks Glow to Radiant (renamed 2026-11-21), Carbon+ migration, CarbonCoins -> Credits 1:1.
      OCGCore README (/credits, /credits history). Written 2026-11-21 for the OCG Network
      launch. -->
 
@@ -44,7 +44,7 @@ every OCG server. Each server decides its own perks.
 - **CarbonCoins are now Credits.** Your balance carried over 1:1. Check it with `/credits`.
 - **Carbon+ (1, 3 or 6 months)** keeps every perk until the time you paid for runs out. It
   doesn't turn into OCG+ on its own, so pick an OCG+ tier if you want to carry on.
-- **Carbon+ Lifetime** holders get the top network rank, **Emerald**, free and permanent,
+- **Carbon+ Lifetime** holders get the top network rank, **Radiant**, free and permanent,
   on every server.
 - **Crate keys** haven't changed. Your keys and crates keep the same names.
 

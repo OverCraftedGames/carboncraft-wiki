@@ -22,7 +22,7 @@ same worlds and the same economy, so you can play with friends on either edition
 |---|---|
 | **Address** | `play.ocgames.xyz` |
 | **Port** | not needed |
-| **Version** | 26.2 or newer |
+| **Version** | 26.3 or newer |
 
 1. Open **Multiplayer**, then **Add Server**.
 2. Enter `play.ocgames.xyz` as the server address.

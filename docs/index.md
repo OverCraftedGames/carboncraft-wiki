@@ -55,7 +55,7 @@ on their daily and weekly contracts.
 ## Cosmetics
 
 - [Tags](cosmetics/tags.md): coloured chat tags, bought in packs or earned
-- [Plushies](cosmetics/plushies.md): 111 mob plushies plus staff, Halloween and chess packs
+- [Plushies](cosmetics/plushies.md): 111 mob plushies plus staff, Halloween, Thanksgiving and chess packs
 - [Join messages](cosmetics/join-messages.md): your own message when you join or leave
 - [Collector's Codex](cosmetics/codex.md): track every collectible you've gathered
 

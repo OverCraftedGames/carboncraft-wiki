@@ -66,7 +66,7 @@ dig up at your own chest shop, or buy what you need from someone else's. Type
 `/vote` lists the voting sites. Each vote pays **$50 and 10 claim blocks** straight
 away, and counts toward your **vote tier**, which brings more money, claim blocks,
 homes, warps and access to the Nether and End.
-Voting on all six sites in one day also pays Credits. See [Voting & vote tiers](voting.md).
+Voting on all seven sites in one day also pays Credits. See [Voting & vote tiers](voting.md).
 
 ## 7. Check your daily stuff
 
